@@ -34,7 +34,10 @@ export const MODULES: Module[] = [
     title: "Start Here",
     blurb:
       "Five minutes of setup that saves you an hour later. Create one Claude Project, put your Master Brain inside it, and make a folder for today's work. Everything you build today lives in those two places.",
-    files: [{ label: "The Q4 Moment Menu", href: "/files/Q4-2026_Moment-Menu.md" }],
+    files: [
+      { label: "Your one-page worksheet (print)", href: "/files/Participant-Sheet_Print.pdf" },
+      { label: "The Q4 Moment Menu", href: "/files/Q4-2026_Moment-Menu.md" },
+    ],
     checklist: [
       "Laptop open, plugged in, on the Wi-Fi",
       "Logged into Claude",
