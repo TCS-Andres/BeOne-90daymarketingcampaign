@@ -86,9 +86,9 @@ export default function Questionnaire({
 
   function answersBlock(): string {
     return fields
-      .map((f, i) => {
-        const label = stripMd(f.label).replace(/^\d+\.\s*/, "");
-        return `${i + 1}. ${label}\n   ${renderValue(f, answers).replace(/\n/g, "\n   ")}`;
+      .map((f) => {
+        const label = stripMd(f.label);
+        return `${label}\n   ${renderValue(f, answers).replace(/\n/g, "\n   ")}`;
       })
       .join("\n\n");
   }
@@ -103,7 +103,10 @@ export default function Questionnaire({
       const i = md.indexOf("## INPUT");
       if (i === -1) throw new Error("no input marker");
       const headEnd = md.indexOf("\n", i);
-      const j = md.indexOf("\n---\n", headEnd);
+      const rule = md.indexOf("\n---\n", headEnd);
+      const next = md.indexOf("\n## ", headEnd);
+      const cands = [rule, next].filter((n) => n !== -1);
+      const j = cands.length ? Math.min(...cands) : -1;
       const head = md.slice(0, headEnd + 1);
       const tail = j === -1 ? "" : md.slice(j);
       return head + "\n" + block + "\n" + tail;
@@ -146,8 +149,8 @@ export default function Questionnaire({
     line("Build Your AI-Powered 90-Day Marketing Campaign  |  Branches B1", 9, "#5A6473", false, 4);
     line(new Date().toLocaleDateString(), 9, "#5A6473", false, 14);
 
-    fields.forEach((f, i) => {
-      line(i + 1 + ". " + stripMd(f.label).replace(/^\d+\.\s*/, ""), 10.5, "#2C5697", true, 3);
+    fields.forEach((f) => {
+      line(stripMd(f.label), 10.5, "#2C5697", true, 3);
       line(renderValue(f, answers), 10.5, "#2B2B2B", false, 12);
     });
 

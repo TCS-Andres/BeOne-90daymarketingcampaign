@@ -3,6 +3,7 @@
 import { useCallback, useMemo, useState } from "react";
 import { MODULES, TOOLS } from "./lib/modules";
 import ModuleSection from "./components/ModuleSection";
+import Logos from "./components/Logos";
 
 const NAV = MODULES.map((m) => ({ slug: m.slug, title: m.title }));
 
@@ -25,8 +26,8 @@ export default function Page() {
       {/* Hero */}
       <header className="bg-navy text-cream">
         <div className="mx-auto max-w-5xl px-5 py-16 sm:px-8 sm:py-24">
-          <p className="text-xs font-semibold uppercase tracking-[0.2em] text-gold">Branches B1</p>
-          <h1 className="mt-4 text-3xl font-semibold leading-tight tracking-tight sm:text-5xl">
+          <Logos height={38} />
+          <h1 className="mt-8 text-3xl font-semibold leading-tight tracking-tight sm:text-5xl">
             Build Your AI-Powered 90-Day Marketing Campaign for the Holidays
           </h1>
           <p className="mt-5 max-w-2xl text-lg leading-relaxed text-cream/80">
@@ -122,6 +123,7 @@ export default function Page() {
       {/* Footer */}
       <footer className="border-t border-line bg-navy py-12 text-cream">
         <div className="mx-auto max-w-5xl px-5 sm:px-8">
+          <Logos height={32} className="mb-7" />
           <p className="font-medium">The Creative Strategist &middot; A Branches B1 Program</p>
           <p className="mt-2 text-sm text-cream/60">
             Your answers save on this device only. Clearing your browser data clears them, so download your PDFs.

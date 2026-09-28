@@ -10,6 +10,7 @@ them a set of questions, then hands them a prompt to paste into Claude.
 | Module | What it produces |
 |---|---|
 | 00 Start Here | Claude Project created, Master Brain loaded, folders made |
+| 00b No Master Brain Yet? | Optional. The 20-question Master Brain build, for anyone without one |
 | 01 Who Are You Selling To? | Q4 Customer Report |
 | 02 When Will You Sell? | Q4 Moment Map, three to five chosen dates |
 | 03 What's the Offer? | Goal, offer and the one message for all 90 days |

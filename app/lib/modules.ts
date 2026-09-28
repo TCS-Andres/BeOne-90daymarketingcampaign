@@ -18,6 +18,9 @@ export type Module = {
   blurb: string;
   time?: string;
   note?: string;
+  optional?: boolean;
+  optionalLabel?: string;
+  links?: { label: string; href: string }[];
   files: { label: string; href: string }[];
   fields?: Field[];
   promptFile?: string;
@@ -50,7 +53,7 @@ export const MODULES: Module[] = [
     stuck: [
       {
         q: "I cannot find my Master Brain file.",
-        a: "Check your Downloads folder and search for 'Master Brain'. If it is truly gone, tell the facilitator. You can rebuild a short version in fifteen minutes and still do everything today.",
+        a: "Search your Downloads folder for 'Master Brain'. If it is truly gone, the next section rebuilds it in about 25 minutes and you will still do everything today.",
       },
       {
         q: "What is a Claude Project and why do I need one?",
@@ -58,12 +61,63 @@ export const MODULES: Module[] = [
       },
       {
         q: "I do not have a Master Brain yet.",
-        a: "Raise your hand. You will get the short questionnaire and you can build one now. Everything today works once you have it.",
+        a: "Go to the next section, No Master Brain Yet? Build one there in about 25 minutes, then come back. Everything today works once you have it.",
       },
     ],
     tools: ["Claude", "ElevenLabs", "Canva"],
   },
 
+  {
+    slug: "master-brain",
+    num: "00b",
+    title: "No Master Brain Yet?",
+    optional: true,
+    optionalLabel: "Optional, only if you need it",
+    blurb:
+      "Everything today assumes AI already knows your business. That knowledge lives in one document called your Master Brain. If you built one at the last workshop, skip this module entirely and go to Module 01. If you did not, or you cannot find your file, build it right here in about 25 minutes and then carry on with everyone else.",
+    time: "About 25 minutes",
+    note:
+      "Answer in your own natural voice. Rough and honest is exactly right, the AI adds the polish. When it is done, save the PDF somewhere you will find it again, then upload it into your My 90-Day Campaign project and carry on with Module 01.",
+    files: [
+      { label: "Questionnaire (print version)", href: "/files/MasterBrain_Questionnaire.md" },
+      { label: "The generator prompt", href: "/files/MasterBrain_Generator_Prompt.md" },
+    ],
+    links: [
+      { label: "The full resource hub from the last workshop", href: "https://be-one-workshop-marketing-campaign.vercel.app/" },
+    ],
+    promptFile: "/files/MasterBrain_Generator_Prompt.md",
+    pasteHint:
+      "Paste this into your My 90-Day Campaign project in Claude. It gives you a finished Master Brain as a downloadable PDF. Upload that PDF back into the project before you start Module 01.",
+    tools: ["Claude"],
+    fields: [
+      { id: "seed", type: "long", label: "Seed paragraph", help: "Fill this in first, it gives the AI a baseline before the deeper questions. My name is ___. My business is ___, based in ___. We help ___ with ___. What makes us different is ___.", placeholder: "My name is Maria Lopez. My business is Sweet Layers Bakery, based in Miami. We help families celebrate with custom cakes. What makes us different is that everything is made from scratch, by me." },
+      { id: "q1", type: "long", label: "1. Your name, your role, your business name, and where you are based.", placeholder: "Maria Lopez, Founder, Sweet Layers Bakery, Miami, FL." },
+      { id: "q2", type: "long", label: "2. In two or three sentences, what does your business do?", help: "Explain it as if to someone who knows nothing about your industry." },
+      { id: "q3", type: "long", label: "3. What is your story? How did you get into this, and what is the deeper why behind it?", help: "Career pivots, defining moments, what drives you beyond money." },
+      { id: "q4", type: "long", label: "4. Describe your personality and your brand in five to seven words.", placeholder: "Warm, detail-obsessed, joyful, dependable, family-first." },
+      { id: "q5", type: "long", label: "5. What is your mission, and your top three values?", help: "Why your business exists, plus the three values that guide it." },
+      { id: "q6", type: "long", label: "6. List your main products or services, one line each." },
+      { id: "q7", type: "long", label: "7. Which offering brings in the most revenue, and which are you most passionate about delivering?" },
+      { id: "q8", type: "long", label: "8. Do you sell to individuals, businesses, or both? And what is the journey from first contact to finished sale?" },
+      { id: "q9", type: "long", label: "9. Describe your number one ideal customer in a few sentences.", help: "Who are they? What do they want most?" },
+      { id: "q10", type: "long", label: "10. What problem do you solve for them, and how do they feel after working with you?" },
+      { id: "q11", type: "long", label: "11. Where do your ideal customers spend their time?", help: "Platforms, communities, events, associations." },
+      { id: "q12", type: "long", label: "12. What are your rough price ranges, and how do you decide what to charge?" },
+      { id: "q13", type: "long", label: "13. What is your number one measurable goal for the next 12 months?", placeholder: "Reach $120,000 in revenue, or grow to 30 orders a month." },
+      { id: "q14", type: "long", label: "14. Describe your communication style in three to five words, and list any signature phrases you use often.", placeholder: "Style: warm, direct, encouraging. Phrase: marketing is an investment, not an expense." },
+      { id: "q15", type: "long", label: "15. What should AI NEVER say or do on your behalf?", help: "Words, tones, or claims that feel wrong for your brand. This becomes your guardrails, and it is the section you will reuse most." },
+      { id: "q16", type: "long", label: "16. Who are your top two or three competitors or alternatives, and what makes you different from them?" },
+      { id: "q17", type: "long", label: "17. Complete this sentence: we are the only ___ that ___.", help: "If 'only' feels too strong, rephrase it however feels true." },
+      { id: "q18", type: "long", label: "18. Which marketing channels do you use now, and which work best for you?" },
+      { id: "q19", type: "long", label: "19. What tools, software, or AI do you currently use to run your business?" },
+      { id: "q20", type: "long", label: "20. Share one signature story, analogy, or saying that captures what you are about, plus anything essential we have not asked." },
+    ],
+    stuck: [
+      { q: "This is a lot of questions and everyone else has started.", a: "You are fine. Answer them fast and roughly, one or two lines each. The generator is built to expand thin answers and flag what it inferred. You will catch up over lunch." },
+      { q: "I built one last time but I cannot find the file.", a: "Search your Downloads folder for 'Master Brain'. Also check the resource hub from the last workshop, linked above. If it is truly gone, filling this in again is faster than hunting for it." },
+      { q: "Claude gave me the document but not a PDF.", a: "Ask it for 'a single self-contained HTML page I can print', then open it and choose Print, then Save as PDF. Upload that into your project." },
+    ],
+  },
   {
     slug: "who",
     num: "01",

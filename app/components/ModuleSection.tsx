@@ -15,14 +15,41 @@ export default function ModuleSection({
   const [checked, setChecked] = useState<Record<number, boolean>>({});
 
   return (
-    <section id={m.slug} className="scroll-mt-24 border-t border-line py-14 sm:py-20">
-      <div className="flex items-baseline gap-4">
+    <section
+      id={m.slug}
+      className={
+        "scroll-mt-24 border-t border-line py-14 sm:py-20 " +
+        (m.optional ? "-mx-5 rounded-2xl bg-bgGrey px-5 sm:-mx-8 sm:px-8" : "")
+      }
+    >
+      <div className="flex flex-wrap items-baseline gap-x-4 gap-y-2">
         <span className="font-semibold text-gold text-2xl sm:text-3xl tabular-nums">{m.num}</span>
         <h2 className="font-semibold text-navy text-2xl sm:text-4xl tracking-tight">{m.title}</h2>
+        {m.optional && (
+          <span className="rounded-full border border-gold bg-cream px-3 py-1 text-[11px] font-semibold uppercase tracking-wide text-gold">
+            {m.optionalLabel || "Optional"}
+          </span>
+        )}
       </div>
 
       <p className="mt-4 max-w-3xl text-base sm:text-lg leading-relaxed text-ink">{m.blurb}</p>
       {m.time && <p className="mt-2 text-sm text-muted">{m.time}</p>}
+
+      {m.links && m.links.length > 0 && (
+        <div className="mt-5 flex flex-wrap gap-2">
+          {m.links.map((l) => (
+            <a
+              key={l.href}
+              href={l.href}
+              target="_blank"
+              rel="noreferrer"
+              className="inline-flex items-center gap-2 rounded-xl border border-blue bg-bgBlue px-4 py-2 text-sm text-blue transition hover:border-gold hover:text-navy"
+            >
+              {l.label} <span aria-hidden>&rarr;</span>
+            </a>
+          ))}
+        </div>
+      )}
 
       {m.files.length > 0 && (
         <div className="mt-6">
@@ -66,7 +93,7 @@ export default function ModuleSection({
         </ol>
       )}
 
-      <Questionnaire module={m} onProgress={(d, t) => onProgress?.(m.slug, d, t)} />
+      <Questionnaire module={m} onProgress={m.optional ? undefined : (d, t) => onProgress?.(m.slug, d, t)} />
 
       {m.stuck && m.stuck.length > 0 && (
         <div className="mt-6 overflow-hidden rounded-2xl border border-gold/50 bg-cream">
