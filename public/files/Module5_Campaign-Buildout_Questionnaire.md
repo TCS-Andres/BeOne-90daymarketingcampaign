@@ -1,4 +1,4 @@
-# Module 4: Build It
+# Module 05: Build It
 
 **Build Your AI-Powered 90-Day Marketing Campaign for the Holidays**
 Branches B1 · Facilitated by The Creative Strategist

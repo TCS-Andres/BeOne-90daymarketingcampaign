@@ -1,4 +1,4 @@
-# Module 1: Who Are You Selling To?
+# Module 01: Who Are You Selling To?
 
 **Build Your AI-Powered 90-Day Marketing Campaign for the Holidays**
 Branches B1 · Facilitated by The Creative Strategist

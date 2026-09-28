@@ -1,4 +1,4 @@
-# Module 4 Prompt: Your Campaign Buildout and 90-Day Calendar
+# Module 05 Prompt: Your Complete 90-Day Campaign Book
 
 > **How to use this file:** Paste this whole thing into your **My 90-Day Campaign** project in Claude, with your seven answers filled into the INPUT section. Your Master Brain, Customer Report, Moment Map and Message Platform are already in that project, so Claude will use all of them automatically.
 >
@@ -10,10 +10,13 @@
 You are an expert campaign builder, copywriter, and patient teacher working with a small business owner who is not a marketer. Assume they have never run an ad, never used a scheduling tool, and do not know marketing vocabulary. Make every step so clear they could follow it tonight, on their phone, with nobody helping them.
 
 ## TASK
-Using the **Master Brain**, the **Q4 Customer Report**, the **Moment Map**, the **Message Platform**, and the seven answers below, build two things:
+This is the final document. Everything this owner has built today gets pulled into one place.
 
-1. **The complete Thanksgiving campaign**, written out in full and ready to use, not described.
-2. **The dated 90-day calendar** running Monday, September 28 through Thursday, December 31, 2026, with a deadline on every single asset.
+Read every document already in this project: the **Master Brain**, the **Q4 Customer Report** from Module 01, the **Channel Plan** from Module 02, the **Moment Map** from Module 03, and the **Message Platform** from Module 04. Add the eight answers below. Then produce **one complete Campaign Book** that contains all of it: who they are, who they are selling to, where, when, what the offer is, the full anchor campaign, and a dated calendar to December 31.
+
+They should be able to close their laptop, open this one document in three weeks, and know exactly what to do without re-reading anything else.
+
+**Before you begin, check what you actually have.** If any of those earlier documents is missing from this project, say so plainly at the top, list what is missing, and ask for it rather than inventing it. Do not guess at a customer report or a message platform you were never given. If the owner tells you to proceed without one, mark every section that depended on it as `[MISSING, rebuild this section once you have your Module 0X output]`.
 
 Today is **Monday, September 28, 2026**, and the owner is in a workshop building their first assets right now.
 
@@ -29,7 +32,7 @@ Today is **Monday, September 28, 2026**, and the owner is in a workshop building
 9. **Respect their price floor absolutely** and follow the Master Brain's AI Operating Instructions.
 10. **No em dashes anywhere in the output.** Use commas, colons, or periods.
 
-11. **Work only the three channels they chose.** They picked one FOUND channel, one BUILD channel and optionally one ACCELERATE channel, from a framework of eleven categories: owned digital, organic social, paid ads, content and authority, local and community, partnerships and referrals, traditional and offline, marketplaces and directories, PR and earned media, experiential and guerrilla, and emerging and AI. Do not add a fourth channel. Do not quietly reintroduce a channel they said they were dropping. If you think a chosen channel is genuinely wrong for their business, say so once in a single clearly labelled line and then build the plan they asked for anyway.
+11. **Work only the three channels in their Channel Plan.** Module 02 already decided their FOUND, BUILD and ACCELERATE channels and what each one is for. Read that document and build on it. Do not add a fourth channel, do not re-litigate the choice, and do not quietly reintroduce something they said they were dropping.
 
 12. **Every asset must name which of their three channels it is for**, and be written natively for it. A post for a FOUND channel does a different job from a post for a BUILD channel. Something written to be discovered by a stranger is not the same as something written for a person who already follows them.
 
@@ -65,24 +68,18 @@ If a line you have written could be pasted into another business's document with
 
 Do not compress. This owner is not a marketer, and a short answer that assumes knowledge is useless to them. Where you give an instruction, give the whole instruction. Where you make a recommendation, say why in one plain sentence. Where you suggest a number, say where the number came from. It is better to be thorough and clear than brief and clever.
 
-## INPUT: YOUR FOURTEEN ANSWERS
+## INPUT: YOUR EIGHT ANSWERS
 
-1. **Your FOUND channel, how new people discover you:**
-2. **Your BUILD channel, how you stay in touch and earn trust:**
-3. **Your ACCELERATE channel, how you speed it up:**
-4. **Email or text list, and roughly how many:**
-5. **How people buy from you, and the link:**
-6. **Making content yourself or with help, and what the help can do:**
-7. **What you have for making images:**
-8. **Ad budget, if any:**
-9. **Photos or videos you already have that you could reuse:**
-10. **Your best-performing post ever, and what it was:**
-11. **What actually stops you from posting consistently:**
-12. **The day and time each week you can commit to making content:**
-13. **Who could help you, even a little:**
-14. **Anything that must be in the campaign:**
+Your three channels are already decided. They are in the **Channel Plan** you built in Module 02, which is in this project. Use it. Do not ask for them again and do not add a fourth.
 
-**Channels you are currently keeping alive out of guilt, and could stop:**
+1. **Making content yourself or with help, and what the help can do:**
+2. **What you have for making images:**
+3. **Ad budget, if any:**
+4. **Photos or videos you already have that you could reuse:**
+5. **What actually stops you from posting consistently:**
+6. **The day and time each week you can commit to making content:**
+7. **Who could help you, even a little:**
+8. **Anything that must be in the campaign:**
 
 ---
 
@@ -96,7 +93,8 @@ Deliver this as a **clean, presentable PDF the owner can download**, not a chat 
 - **Present all calendars as clean tables.**
 - **Each written asset in its own labeled block** so it can be copied and posted directly.
 - **Style every "How to do this" box distinctly**, light background, numbered steps, so instructions never blend into the plan.
-- This will run roughly 15 to 20 pages. That is correct for this audience. Do not compress the instructions to save pages.
+- This will run roughly 18 to 25 pages. That is correct, because it is now the only document they need. Do not compress to save pages.
+- **If the document is too long to finish in one response, do not shorten it.** Produce it in order, stop at a clean section break, say which section you stopped at, and continue in the next message. A complete book across two messages beats a thin one in a single message.
 
 **How to deliver:** generate an actual downloadable PDF. If you cannot attach a PDF in this environment, build a single self-contained, print-ready HTML document instead, styled exactly as above, and tell the owner to choose **Print, then "Save as PDF."** Either way the result must be a clean PDF, never a markdown dump.
 
@@ -104,8 +102,21 @@ Deliver this as a **clean, presentable PDF the owner can download**, not a chat 
 
 ## CONTENTS: sections, in this order
 
+### 0. Your Campaign at a Glance
+One page, and it must be readable in thirty seconds. The business name and what it does in one line. The one number they are chasing. Their promise, word for word from the Message Platform. Their three channels. Their chosen moments with dates. Nothing else. This is the page they will actually look at again.
+
+### 0b. What You Decided Today
+A short section carrying forward, in compressed form, the conclusions from each earlier module so this document stands alone:
+
+- **Your Q4 customer**, three or four lines from the Customer Report: who they are, gift buyer or self buyer, and the one trigger that moves them.
+- **Your channels**, from the Channel Plan: the three, what each is for, and what they are stopping.
+- **Your moments**, from the Moment Map: the chosen dates, and one line on why each earned its place.
+- **Your message**, from the Message Platform: the Big Idea, the Promise, the three proof points, and the call to action, quoted exactly, not paraphrased.
+
+Do not re-derive any of this. Carry it forward faithfully. If you find yourself writing something the earlier document did not say, stop and quote the earlier document instead.
+
 ### 1. Campaign Snapshot
-One page: the goal number, the audience, the Big Idea, the Promise, the moments being run, their three chosen channels labelled FOUND, BUILD and ACCELERATE, the one number they will track, and exactly where they read that number, their register app, their order platform, or a daily tally on paper.
+One page: the goal number, the audience, the Big Idea, the Promise, the moments being run, their three channels from the Channel Plan, labelled FOUND, BUILD and ACCELERATE, the one number they will track, and exactly where they read that number, their register app, their order platform, or a daily tally on paper.
 
 ### 1b. Your Three Channels, and What Each One Is Doing
 A short section, one paragraph per channel, saying in plain words what job that channel does in this specific plan, what they should post there and how often, and what "good" looks like for it in ninety days. Be concrete about the difference: the FOUND channel is how a stranger arrives, the BUILD channel is how somebody who already knows them decides to buy, the ACCELERATE channel is how they reach more people faster than waiting would.
@@ -167,7 +178,10 @@ A short decision table in plain sentences, one per row, at minimum covering:
 - If something works, here is how to repeat it
 - If you fall two weeks behind, here is what to drop first
 
-### 8. This Week's Checklist
+### 8. If You Only Keep One Page
+A single page they could print and pin up: the promise, the one number, the three channels, and the next four dated actions. Nothing else.
+
+### 9. This Week's Checklist
 The handful of things to do between today and Sunday, in order, each pointing at its How To Do This box. Keep it to six items or fewer. This is the difference between a document they read and a campaign they launch.
 
 ---
@@ -175,7 +189,7 @@ The handful of things to do between today and Sunday, in order, each pointing at
 ## CLOSING LINE
 End the PDF with exactly this:
 
-> *You came in with your business. You are leaving with your campaign. Follow the checklist, post on the calendar, watch your one number, and re-skin it for the next moment.*
+> *This is everything you built today, in one place. Follow the checklist, post on the calendar, watch your one number, and re-skin it for the next moment. You do not need any other document.*
 
 ## TONE
 Practical, warm, and confident, like a patient friend sitting beside them with their phone out. Never talk down, never assume knowledge. They should finish reading and think: I could launch this tonight, and I know exactly which buttons to press.

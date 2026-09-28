@@ -3,15 +3,15 @@
 **Build Your AI-Powered 90-Day Marketing Campaign for the Holidays**
 Branches B1 · The Creative Strategist
 
-Three case studies, on slides 13, 29 and 36. Each slide has a narrow empty frame on the right for a video still or a screenshot, which you can drop in yourself.
+Three case studies, on slides 13, 30 and 37. Each slide has a narrow empty frame on the right for a video still or a screenshot, which you can drop in yourself.
 
 ## The three video links, at a glance
 
 | Slide | Case | Link | Length |
 |---|---|---|---|
 | 13 | REI closed on Black Friday | https://www.youtube.com/watch?v=lMsxrJeJ8lU | 2:21 |
-| 29 | Miette, a four-shop bakery | https://www.youtube.com/watch?v=EYBbftM9LuY | 2:10 |
-| 36 | Patagonia, Do Not Buy This Jacket | https://www.youtube.com/watch?v=gtvqMBH0wS8 | 0:29 |
+| 30 | Miette, a four-shop bakery | https://www.youtube.com/watch?v=EYBbftM9LuY | 2:10 |
+| 37 | Patagonia, Do Not Buy This Jacket | https://www.youtube.com/watch?v=gtvqMBH0wS8 | 0:29 |
 
 Backups, if you want a different tone: REI's emotional version is [Will You Go Out With Me?](https://www.youtube.com/watch?v=MEVXU4RDUoI), and a TODAY segment on shopping local is at [youtube.com/watch?v=2D8qYZDk9-8](https://www.youtube.com/watch?v=2D8qYZDk9-8) (3:21).
 
@@ -55,7 +55,7 @@ Backup if you want the emotional version rather than the results version: [#OptO
 
 ---
 
-## Slide 29 · A Business Your Size
+## Slide 30 · A Business Your Size
 
 **Where it sits:** Topic 3, after Trend Days and before Which Dates Are Actually Yours. This is the one that makes the room lean in, because it is finally somebody their size.
 
@@ -98,9 +98,9 @@ Features Sharon Coleman, co-owner of Tinkers and Company, on Small Business Satu
 
 ---
 
-## A story for slide 27, no slide needed
+## A story for slide 28, no slide needed
 
-When you are on Six Days in a Row, slide 27, and you get to Small Business Saturday, this is worth thirty seconds:
+When you are on Six Days in a Row, slide 28, and you get to Small Business Saturday, this is worth thirty seconds:
 
 > Small Business Saturday is not an old tradition. American Express made it up in 2010. It did not exist. There was Black Friday for the big stores and Cyber Monday for the internet, and nothing at all for the people in this room. So they invented a day and gave it a name.
 >
@@ -112,7 +112,7 @@ The point to land: the reason to buy local that day is already in the air. You d
 
 ---
 
-## Slide 36 · Do Not Buy This Jacket
+## Slide 37 · Do Not Buy This Jacket
 
 **Where it sits:** Topic 4, right after You Do Not Have to Discount. It is the hardest version of that argument.
 

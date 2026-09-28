@@ -3,7 +3,7 @@
 **Build Your AI-Powered 90-Day Marketing Campaign for the Holidays**
 Branches B1 · The Creative Strategist
 
-Forty-eight slides. Each has its mode, when it goes up, what to say, and what to watch for. Talk tracks are the shape of the point, not a script. Say them your way.
+Forty-nine slides. Each has its mode, when it goes up, what to say, and what to watch for. Talk tracks are the shape of the point, not a script. Say them your way.
 
 **The modes:** navy PRESENTATION means listen. Terracotta COMPUTER WORK means build. Amber COLLABORATION means talk to each other.
 
@@ -162,7 +162,7 @@ What to say when someone stalls:
 **At 11:15:** copy your prompt, paste it, let it run.
 
 ## Slide 19 · Share Out
-*Collaboration.* **11:20.**
+*Collaboration.* **11:15.**
 
 > Laptops down. Three or four of you, read your answer to question seven out loud. What you wish customers understood.
 
@@ -171,14 +171,14 @@ Those answers are almost always the best marketing copy in the room, and hearing
 ---
 
 ## Slide 20 · Where Will You Sell?
-*Presentation.* **11:45.**
+*Presentation.* **11:30.**
 
 > Second question. You know who you are selling to. Now the one almost nobody asks before they start posting: where. What path does that person actually take to reach you?
 
 > This is the shortest topic of the day and it might be the one that changes the most for you.
 
 ## Slide 21 · What Is a Marketing Channel?
-*Presentation.* **11:47.**
+*Presentation.* **11:32.**
 
 > A marketing channel is any path a customer can take to find you, trust you, and do business with you. That is the whole definition. Your Instagram is a channel. So is the sign on your van. So is the neighbour who keeps recommending you.
 
@@ -187,7 +187,7 @@ Those answers are almost always the best marketing copy in the room, and hearing
 Keep this short. It is a definition slide, not a lecture.
 
 ## Slide 22 · Eleven Categories. Fifty Channels.
-*Presentation.* **11:51.**
+*Presentation.* **11:36.**
 
 > There are eleven categories and more than fifty channels available to a small business today. Owned digital, organic social, paid ads, content and authority, local and community, partnerships and referrals, traditional and offline, marketplaces and directories, PR and earned media, experiential and guerrilla, and the new AI ones.
 
@@ -198,7 +198,7 @@ Keep this short. It is a definition slide, not a lecture.
 **Worth saying out loud:** most people in this room are quietly doing six channels badly and feeling guilty about four more. The guide exists to let them stop.
 
 ## Slide 23 · Three Channels Is a Complete System
-*Presentation.* **11:56. This is the slide that matters in this section.**
+*Presentation.* **11:40. This is the slide that matters in this section.**
 
 > Here is the rule of thumb, and it is the only thing from this section you have to remember. One channel to be FOUND, so strangers can discover you: search, maps, directories, a market stall. One channel to BUILD, so the people who already know you keep hearing from you: email, text, one social platform. And one to ACCELERATE, if you have the budget or the partners: paid ads, a referral programme, a cross-promotion.
 >
@@ -207,7 +207,7 @@ Keep this short. It is a definition slide, not a lecture.
 **Ask the room, out loud:** "which one of those three do you think most of you are missing?" It is almost always FOUND. People post constantly to an audience that already knows them, and nothing brings new people in.
 
 ## Slide 24 · Which Three Are Yours?
-*Presentation.* **12:03.**
+*Presentation.* **11:47.**
 
 > Three questions to pick yours. Where do your best customers already spend their attention, not where do you enjoy spending yours. Which channels match how you naturally work, are you a talker, a writer, a maker, a connector. And what could you genuinely sustain for six months straight, not for two enthusiastic weeks in October.
 >
@@ -215,13 +215,26 @@ Keep this short. It is a definition slide, not a lecture.
 
 Then straight into Module 04, where the first three questions are exactly this.
 
-## Slide 25 · Topic 4 Divider
-*Presentation.* **12:10.**
+## Slide 25 · Your Turn: Module 02
+*Computer work.* **11:55. Leave this slide up the whole block.**
+
+> Module 02 on the page. Eight questions, and the first three are your channels. Tap the i beside any option you do not recognise and it tells you what it is. Twenty-five minutes.
+
+**Watch for two things.**
+
+**People ticking a channel they wish they used.** The question is where new people actually discover you, not where you would like them to. If somebody picks a channel they have never worked, ask them gently when they last got a customer from it.
+
+**Question 8, where the last five customers came from.** This is the question that does the work. Make them think it through one customer at a time, not in general. Most people discover their real found channel is word of mouth or one specific thing they had stopped paying attention to.
+
+**At 12:25:** copy your prompt, paste it, let it run over lunch and read it when you come back.
+
+## Slide 26 · Topic 4 Divider
+*Presentation.* **12:25.**
 
 > Third question. When. And the answer is not "all of them."
 
-## Slide 26 · Your Next 90 Days
-*Presentation.* **12:12.**
+## Slide 27 · Your Next 90 Days
+*Presentation.* **12:27.**
 
 > October, November, December. Ninety-five days. Here are the dates on the table. You pick three to five. Not eleven.
 
@@ -229,8 +242,8 @@ Then straight into Module 04, where the first three questions are exactly this.
 
 > Everyone in this room builds Thanksgiving. November 26, eight and a half weeks out. Nobody is behind. We all build that one together, because gratitude is the one message that works for every business here without a discount.
 
-## Slide 27 · Six Days in a Row
-*Presentation.* **12:18.**
+## Slide 28 · Six Days in a Row
+*Presentation.* **12:33.**
 
 > Look at the end of November. Thanksgiving, Black Friday, Small Business Saturday, Cyber Monday, Giving Tuesday. Six days in a row. That is not six campaigns, that is one campaign with six doors. And the one in the middle, Small Business Saturday, is the best day of the year for everybody in this room, because that day the whole country is already talking about choosing local. You do not have to create the reason. You just have to be findable.
 
@@ -240,8 +253,8 @@ If you emphasise one date besides Thanksgiving, make it this one.
 
 > Small Business Saturday is not an old tradition. American Express made it up in 2010. It did not exist. There was Black Friday for the big stores and Cyber Monday for the internet, and nothing at all for the people in this room. So they invented a day and gave it a name. Fifteen years later it moves about twenty-two billion dollars, up from seventeen billion the year before.
 
-## Slide 28 · Trend Days: Fifteen Minutes Each
-*Presentation.* **12:24.**
+## Slide 29 · Trend Days: Fifteen Minutes Each
+*Presentation.* **1:30.**
 
 > Not campaigns. Single posts. One photo, two sentences, post it, done. Their job is keeping you visible between the big moments, so when you do have something to sell you are not a stranger showing up with a discount.
 
@@ -251,8 +264,8 @@ If you emphasise one date besides Thanksgiving, make it this one.
 
 > Trend days build the trust. The big moments collect on it.
 
-## Slide 29 · A Business Your Size
-*Presentation.* **1:30.**
+## Slide 30 · A Business Your Size
+*Presentation.* **1:36.**
 
 **This is the one that makes the room lean in, because it is finally somebody their size.** Use it deliberately as the counterweight to REI: that was a company with a marketing department, here is a bakery.
 
@@ -272,8 +285,8 @@ Numbers on the slide: cake sales up 105%, holiday candy up 53%, across four shop
 
 **Video, 2:10:** youtube.com/watch?v=EYBbftM9LuY, a real shop owner on Small Business Saturday. Not Miette, but it puts a small shop owner's face on the screen, which is the point.
 
-## Slide 30 · Which Dates Are Actually Yours?
-*Presentation.* **1:38.**
+## Slide 31 · Which Dates Are Actually Yours?
+*Presentation.* **1:44.**
 
 > Four questions for every date, and be honest on all four. Does my customer care about this date, not do I. Can I actually deliver if it works, because selling more than you can make loses you a customer. Do I have the lead time. And is this authentically mine, because a borrowed holiday reads as hollow and your regulars feel it.
 
@@ -281,10 +294,10 @@ Numbers on the slide: cake sales up 105%, holiday candy up 53%, across four shop
 
 ---
 
-## Slide 31 · Your Turn: Module 02
+## Slide 32 · Your Turn: Module 03
 *Computer work.* **1:50. Leave it up the whole block.**
 
-> Module 02. Tick your moments, run the prompt. Thirty-five minutes. Pick freely, Claude will talk you down to three to five.
+> Module 03. Tick your moments, run the prompt. Thirty-five minutes. Pick freely, Claude will talk you down to three to five.
 
 Common failure here is ticking everything. Let them. Being cut by Claude lands better than being cut by you.
 
@@ -294,7 +307,7 @@ What to watch:
 - **Question 6, blackout dates.** People skip it because it feels negative. Push them. A plan that ignores the week their kids are off school dies in December.
 - **Question 12, the goal and the why.** They rush the why. The number is what they measure, the why is what keeps them posting in week nine.
 
-## Slide 32 · Moment Draft
+## Slide 33 · Moment Draft
 *Collaboration.* **2:25.**
 
 > Laptops down. Round the room. Your name, your business, your three moments. One sentence each. No explaining, no discussion.
@@ -303,24 +316,24 @@ Fast and rhythmic. Fifteen people in fifteen minutes. Saying a choice out loud i
 
 ---
 
-## Slide 33 · Topic 5 Divider
+## Slide 34 · Topic 5 Divider
 *Presentation.* **2:40.**
 
 > Fourth question. What are you actually offering. Then the part most people skip, the one message that carries all ninety days.
 
-## Slide 34 · Five Shapes an Offer Can Take
+## Slide 35 · Five Shapes an Offer Can Take
 *Presentation.* **2:42.**
 
 > An offer does not mean a discount. A bundle. Early access, regulars go first. A gift with purchase. Tiered, good better best. Or a limited number, which is the most underused one in this room. Most of you are capacity-limited anyway, so "I am only taking twelve orders for Thanksgiving week" is not a marketing trick, it is just true. And true scarcity beats every discount.
 
-## Slide 35 · You Do Not Have to Discount
+## Slide 36 · You Do Not Have to Discount
 *Presentation.* **2:48.**
 
 > If you sell something premium, or you sell your own time, listen closely. Cutting your price in December costs you all of next year, because every customer you win on a discount comes back next year expecting it. So instead: add rather than subtract. Bundle. Let regulars in first. Limit the number.
 
 Ask who is afraid of discounting. Service businesses raise hands. Tell them Module 03 asks for their price floor and will never propose anything that breaks it.
 
-## Slide 36 · Do Not Buy This Jacket
+## Slide 37 · Do Not Buy This Jacket
 *Presentation.* **2:55.**
 
 > Black Friday, 2011. Patagonia buys a full page in the New York Times. And the ad says, in big letters, do not buy this jacket. Then it lists what the jacket costs the planet to make.
@@ -339,10 +352,10 @@ Numbers on the slide: nothing discounted, revenue about $415 million before, $54
 
 **Video, 0:29:** youtube.com/watch?v=gtvqMBH0wS8. Twenty-nine seconds. Play it, do not describe it.
 
-## Slide 37 · Your Turn: Module 03
+## Slide 38 · Your Turn: Module 04
 *Computer work.* **3:05. The most important work block of the day. Protect it.**
 
-> Module 03. Fourteen questions. This is the thinking module. Take your time, these answers become the actual words in your campaign.
+> Module 04. Fourteen questions. This is the thinking module. Take your time, these answers become the actual words in your campaign.
 
 This is where people go quiet and slightly uncomfortable, which means it is working. Do not fill the silence.
 
@@ -352,7 +365,7 @@ What to watch:
 - **Question 12**, the story they do not tell enough. They undersell this badly. Push: "why did you actually start this?" That answer becomes their proof points.
 - **Anyone writing brochure language.** Ask them to say it to you like they would to a customer standing in front of them, then have them type that.
 
-## Slide 38 · Say It Out Loud
+## Slide 39 · Say It Out Loud
 *Collaboration.* **3:50.**
 
 > Turn to your partner. Do not hand them your laptop. Say your promise out loud, from memory, in one breath. If you stumble, if you need a second sentence, if they look confused, it is not a promise yet. It is a paragraph. Go back and cut it.
@@ -363,18 +376,18 @@ Walk and listen. When you hear one that lands, ask that person to say it to the 
 
 ---
 
-## Slide 39 · Topic 6 Divider
-*Presentation.* **4:15.**
+## Slide 40 · Topic 6 Divider
+*Presentation.* **4:10.**
 
 > Last question. Everything you decided today, with dates on it.
 
-## Slide 40 · What Your Plan Contains
-*Presentation.* **4:17.**
+## Slide 41 · What Your Plan Contains
+*Presentation.* **4:12.**
 
 > Four things. Your offer for each moment you picked. A dated calendar running to December 31. A re-skin guide. And a weekly checklist. That is the document you are walking out with.
 
-## Slide 41 · Your Weekly Rhythm
-*Presentation.* **4:19.**
+## Slide 42 · Your Weekly Rhythm
+*Presentation.* **4:14.**
 
 > Three posts and one video a week, for thirteen weeks. And I want to be honest, because some of you just did the math and panicked. If you told the page you have three hours a week, your plan will say plainly whether that fits, and if it does not it hands you a smaller version instead. One post, one video.
 
@@ -382,19 +395,25 @@ Walk and listen. When you hear one that lands, ask that person to say it to the 
 
 **Say clearly that this is the plan's cadence, starting this week, not something they produce today.**
 
-## Slide 42 · One Campaign, Many Moments
-*Presentation.* **4:22.**
+## Slide 43 · One Campaign, Many Moments
+*Presentation.* **4:17.**
 
 > This is the payoff of the message you wrote in Module 03. Your plan includes a re-skin guide. Twenty minutes to turn your Thanksgiving campaign into the next moment. The date changes, the offer changes. Your message and your promise do not. That is why you did the hard thinking this afternoon.
 
 ---
 
-## Slide 43 · Your Turn: Module 04
-*Computer work.* **4:25. Leave it up the whole block.**
+## Slide 44 · Your Turn: Module 05
+*Computer work.* **4:20. Leave it up the whole block.**
 
-> Module 04. Fourteen questions. The first three are your channels, found, build and accelerate, and there is an information button next to every option if you do not know what something is. The rest are quick. Run it, and save what comes back as a PDF. This is the one you take home.
+> Module 05. Eight questions, they are quick, because your channels, dates and message are already decided. Then this one pulls the whole day together. What comes out is not just a campaign, it is your complete Campaign Book: your customer, your channels, your dates, your message, the full Thanksgiving campaign, and a dated calendar to December 31, all in one document. Run it, and save it as a PDF. This is the one you take home.
 
-**At 4:15 tell them to read the Thanksgiving section first and ignore the calendar until it finishes generating**, or they will get overwhelmed by the length.
+**Two things to say before they run it.**
+
+**One:** this document is long, roughly twenty pages, because it is now the only document they need. If Claude stops partway through, they type "continue". That is normal, not a failure, and telling them in advance saves you fifteen hands going up at once.
+
+**Two:** it only works if they have been running everything inside their My 90-Day Campaign project. If somebody has been opening fresh chats all day, this is where it surfaces. The prompt is written to say plainly what is missing rather than invent it. The fix is pasting that module's output into the chat, so have that answer ready.
+
+**At 4:25 tell them to read the At a Glance page first and ignore the calendar until it finishes generating**, or they will get overwhelmed by the length.
 
 If Claude will not produce a PDF, tell them to ask for "a single self-contained HTML page I can print," then Print, then Save as PDF. Have that line ready, you will use it more than once.
 
@@ -402,33 +421,33 @@ If Claude will not produce a PDF, tell them to ask for "a single self-contained 
 
 ---
 
-## Slide 44 · Pressure-Test Your Plan
-*Collaboration.* **4:50.**
+## Slide 45 · Pressure-Test Your Plan
+*Collaboration.* **4:45.**
 
 > Swap with your partner. Read their calendar, not their campaign. Three questions: is any date impossible, is any week too full, and what would you cut?
 
 Five minutes. An outside eye catches the over-committed November that the owner cannot see.
 
-## Slide 45 · What You Built Today
-*Presentation.* **4:52.**
+## Slide 46 · What You Built Today
+*Presentation.* **4:50.**
 
 > Look at what is on your laptop. A customer report. Your dates. Your message. Your campaign plan. A dated calendar to December 31. You came in with a business and you are leaving with a plan.
 
 > And when we make your flyers and your videos in a future session, you will not be staring at a blank page. You will already know what they need to say and exactly when they go out.
 
-## Slide 46 · This Week, Before Sunday
-*Presentation.* **4:55.**
+## Slide 47 · This Week, Before Sunday
+*Presentation.* **4:53.**
 
 > Four things. Save your plan where you will actually find it. Put your content hour in your phone as a repeating appointment, not a good intention. Post the first thing on your calendar. And text your partner your one number.
 
-## Slide 47 · Trade Plans With Your Partner
-*Collaboration.* **4:57.**
+## Slide 48 · Trade Plans With Your Partner
+*Collaboration.* **4:56.**
 
 > Phones out. Right now, before anyone leaves. Send your partner your one number and your first three dates.
 
 **Make them actually do it in the room.** A commitment sent to a real person is the single biggest predictor of who is still posting in November.
 
-## Slide 48 · Thank You
+## Slide 49 · Thank You
 **4:59.**
 
 > You came in with your business. You are leaving with your plan. Everything is in your Claude Project and it stays there, so when you come back next month nothing starts from scratch.
@@ -436,10 +455,6 @@ Five minutes. An outside eye catches the over-committed November that the owner 
 > Thank you for trusting me with your day.
 
 Leave it up while people pack. Be at the front for the few who want to ask something they would not ask in front of the room. Often the most valuable fifteen minutes of their day.
-
----
-
-*The Creative Strategist · A Branches B1 Program*
 
 ---
 

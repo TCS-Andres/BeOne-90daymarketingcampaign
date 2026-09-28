@@ -1,4 +1,4 @@
-# Module 1 Prompt: Your Q4 Customer Report
+# Module 01 Prompt: Your Q4 Customer Report
 
 > **How to use this file:** Paste this whole thing into your **My 90-Day Campaign** project in Claude, with your seven answers filled into the INPUT section. Your Master Brain is already in that project, so Claude will use it automatically.
 >
@@ -110,7 +110,7 @@ Everything above is an educated guess built from what the owner told you. This s
 ## CLOSING NOTE
 End the report with exactly this line:
 
-> *You just built the foundation. Keep this in this project, everything else today builds on it. Next: Module 2, pick your moments.*
+> *You just built the foundation. Keep this in this project, everything else today builds on it. Next: Module 02, pick where you will sell.*
 
 ## TONE
 Warm, direct, practical. Like a trusted friend who happens to be an expert. Never talk down, never assume marketing knowledge, never pad. The owner should finish reading and think "I know something about my customer I did not know an hour ago, and I know what to do with it."

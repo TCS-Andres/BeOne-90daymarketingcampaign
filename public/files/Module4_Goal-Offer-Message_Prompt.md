@@ -1,4 +1,4 @@
-# Module 3 Prompt: Your Goal, Offer and Message
+# Module 04 Prompt: Your Goal, Offer and Message
 
 > **How to use this file:** Paste this whole thing into your **My 90-Day Campaign** project in Claude, with your seven answers filled into the INPUT section. Your Master Brain, your Q4 Customer Report and your Moment Map are already in that project, so Claude will use all three automatically.
 >
@@ -115,7 +115,7 @@ Close with this exercise, written as instructions to the owner:
 ## CLOSING NOTE
 End with exactly this line:
 
-> *You have your message. Next: Module 4, build the whole thing.*
+> *You have your message. Next: Module 05, build the whole thing.*
 
 ## TONE
 Confident and clear. You are the strategist who makes the hard part look easy. Give recommendations, not menus of options to agonize over. When you do offer a choice, say which one you would pick and why.

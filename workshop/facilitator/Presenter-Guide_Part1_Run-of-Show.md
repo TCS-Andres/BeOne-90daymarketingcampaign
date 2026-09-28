@@ -21,7 +21,7 @@ Every slide carries a tag in the top right corner so the room always knows what 
 | **COMPUTER WORK** | Terracotta | You build, I circulate. Heads down. |
 | **COLLABORATION** | Amber | You talk to each other. Laptops down, look up. |
 
-Roughly **170 minutes of presenting, 180 minutes of computer work, 55 minutes of collaboration.** The building is still the biggest block by design.
+Roughly **160 minutes of presenting, 195 minutes of computer work, 50 minutes of collaboration.** The building is still the biggest block by design.
 
 ---
 
@@ -30,39 +30,38 @@ Roughly **170 minutes of presenting, 180 minutes of computer work, 55 minutes of
 | Time | Mode | Slides | What happens |
 |---|---|---|---|
 | 9:00 to 9:30 | Computer work | 1, 6 | Arrival and Station Zero. Get every laptop green. |
-| 9:30 to 9:45 | Presentation | 2, 3, 4, 5 | Open. Frame the day, name the three modes, pair partners. |
+| 9:30 to 9:45 | Presentation | 2 to 5 | Open. Frame the day, name the three modes, pair partners. |
 | 9:45 to 10:20 | Presentation | 7 to 13 | **Topic 1:** What a campaign really is, plus Case Study 1. |
 | 10:20 to 10:35 | Presentation | 14 to 17 | **Topic 2:** Who are you selling to. |
-| 10:35 to 11:20 | Computer work | 18 | **Module 01.** Customer Report. |
-| 11:20 to 11:35 | Collaboration | 19 | Share Out. Question seven, read aloud. |
-| 11:35 to 11:45 | Break | none | |
-| 11:45 to 12:10 | Presentation | 20 to 24 | **Topic 3:** Where will you sell. Marketing channels. |
-| 12:10 to 12:30 | Presentation | 25 to 28 | **Topic 4 begins:** When will you sell, plus Case Study 2. |
+| 10:35 to 11:15 | Computer work | 18 | **Module 01.** Customer Report. |
+| 11:15 to 11:25 | Collaboration | 19 | Share Out. Question seven, read aloud. |
+| 11:25 to 11:30 | Break | none | Short one. |
+| 11:30 to 11:55 | Presentation | 20 to 24 | **Topic 3:** Where will you sell. Marketing channels. |
+| 11:55 to 12:25 | Computer work | 25 | **Module 02.** Pick your three channels. |
+| 12:25 to 12:30 | Presentation | 26 | **Topic 4 opens:** when will you sell. |
 | 12:30 to 1:30 | Lunch | none | |
-| 1:30 to 1:50 | Presentation | 29, 30 | **Topic 4 finishes:** the small business case, which dates fit. |
-| 1:50 to 2:25 | Computer work | 31 | **Module 02.** Pick your moments. |
-| 2:25 to 2:40 | Collaboration | 32 | Moment Draft. Round the room. |
-| 2:40 to 3:05 | Presentation | 33 to 36 | **Topic 5:** What is the offer, plus Case Study 3. |
-| 3:05 to 3:50 | Computer work | 37 | **Module 03.** Goal, offer and message. |
-| 3:50 to 4:05 | Collaboration | 38 | Say It Out Loud with partners. |
-| 4:05 to 4:15 | Break | none | |
-| 4:15 to 4:25 | Presentation | 39 to 42 | **Topic 6:** Your 90-day plan. |
-| 4:25 to 4:50 | Computer work | 43 | **Module 04.** Build the plan. |
-| 4:50 to 5:00 | Collaboration | 44 to 48 | Pressure-test, close, trade plans, thank you. |
+| 1:30 to 1:50 | Presentation | 27 to 31 | **Topic 4 continues:** the calendar, Case Study 2, which dates fit. |
+| 1:50 to 2:25 | Computer work | 32 | **Module 03.** Pick your moments. |
+| 2:25 to 2:40 | Collaboration | 33 | Moment Draft. Round the room. |
+| 2:40 to 3:05 | Presentation | 34 to 37 | **Topic 5:** What is the offer, plus Case Study 3. |
+| 3:05 to 3:50 | Computer work | 38 | **Module 04.** Goal, offer and message. |
+| 3:50 to 4:05 | Collaboration | 39 | Say It Out Loud with partners. |
+| 4:05 to 4:10 | Break | none | Short one. |
+| 4:10 to 4:20 | Presentation | 40 to 43 | **Topic 6:** Your 90-day plan. |
+| 4:20 to 4:45 | Computer work | 44 | **Module 05.** Build the plan. |
+| 4:45 to 5:00 | Collaboration | 45 to 49 | Pressure-test, close, trade plans, thank you. |
 
-## The five questions, and where each one lives
+## The five questions, and the module that answers each
 
-The whole day hangs off five questions, and slide 11 names them all.
-
-| Question | Topic | Where they answer it |
+| Question | Topic | Module |
 |---|---|---|
-| To whom? | 2 | Module 01 |
-| Where will you sell? | 3 | Module 04, first three questions |
-| When? | 4 | Module 02 |
-| What is the offer? | 5 | Module 03 |
-| What is the plan? | 6 | Module 04 |
+| To whom? | 2 | **01** Who Are You Selling To? |
+| Where will you sell? | 3 | **02** Where Will You Sell? |
+| When? | 4 | **03** When Will You Sell? |
+| What is the offer? | 5 | **04** What's the Offer? |
+| What is the plan? | 6 | **05** Build It |
 
-**Note the gap on Where.** You teach channels at 11:45 but they pick theirs at 4:25, in Module 04. That is deliberate: channels are context for everything else, and picking them makes more sense once they know their customer, their dates and their offer. Say so when you teach it, so nobody wonders why they are not filling anything in yet: *"You are not picking today's channels right now. I am giving you the map. You will choose at the end, when you know what you are actually carrying."*
+Five questions, five modules, and each one is a topic on the slides and a section on the page. When anyone gets lost, that table is the answer.
 
 ## What changed, and what it means for you
 
@@ -94,7 +93,7 @@ If a slide is still empty when you get there, talk over it. It reads as a title 
 1. **Confirm the two rooms with Steve.** He has 111 and 112. If you are covering both, the five computer-work blocks are your windows: 10:40, 1:30, 2:45, 4:10, plus Station Zero at 9:00. Each runs itself for 35 minutes or more.
 2. **Drop your case studies into slides 13, 24 and 31**, or decide to talk over them.
 3. **Open the hub and run Module 01 yourself** against your own business. Twenty minutes, and nothing surprises you in front of the room.
-4. **Skim the Marketing Channels guide**, which is downloadable from Module 00 and Module 04 on the hub. Slides 21 to 24 teach its core idea, and Module 04 opens with three channel questions built from it. Every option on that page has an information button, so you do not have to explain all fifty channels from the front of the room.
+4. **Skim the Marketing Channels guide**, downloadable from Module 00 and Module 02 on the hub. Slides 21 to 24 teach its core idea, and Module 04 opens with three channel questions built from it. Every option on that page has an information button, so you do not have to explain all fifty channels from the front of the room.
 
 ## Before 9:00
 
@@ -123,9 +122,11 @@ In order of what to cut:
 2. **A case study.** Talk over it in thirty seconds instead of three minutes.
 3. **The Moment Draft.** Four volunteers instead of the whole room.
 
-**The channels section is Topic 3, slides 20 to 24.** If you are short on time there, cut slides 21 and 22 to about a minute each and protect slide 23, Found Build Accelerate. That single slide is the whole idea, and the first three questions of Module 04 depend on it.
+**The channels section is Topic 3, slides 20 to 25, and it now has its own work block.** If you are short on time there, cut slides 21 and 22 to about a minute each and protect slide 23, Found Build Accelerate. That single slide is the whole idea, and the first three questions of Module 04 depend on it.
 
-**Never cut Module 03 or Module 04.** Module 03 is where the message gets made, and without it there is no campaign, just a list of dates. Module 04 is the thing they take home. If it comes to it, run Module 04 short and let them finish it tonight, but do not skip starting it in the room.
+**Never cut Module 04 or Module 05.** Module 04 is where the message gets made, and without it there is no campaign, just a list of dates. Module 05 is the thing they take home. If it comes to it, run Module 04 short and let them finish it tonight, but do not skip starting it in the room.
+
+**There is also a new downloadable calendar**, October through January, with more than sixty dates and a play for each one. It lives on Module 03. Point at it when you teach Topic 4, because it answers every "but what about..." question in the room.
 
 ---
 

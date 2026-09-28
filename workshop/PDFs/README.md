@@ -14,11 +14,15 @@ Branches B1 · The Creative Strategist · Monday, September 28, 2026
 
 The editable deck is `deck/Build-Your-90-Day-Plan_Deck.pptx`, with the speaker notes already in the notes pane.
 
-## The five questions
+## The five questions, five modules
 
-The day hangs off five questions, named on slide 11.
-
-To whom (Topic 2) · Where will you sell (Topic 3, channels) · When (Topic 4) · What is the offer (Topic 5) · What is the plan (Topic 6)
+| Question | Topic | Module |
+|---|---|---|
+| To whom? | 2 | 01 Who Are You Selling To? |
+| Where will you sell? | 3 | 02 Where Will You Sell? |
+| When? | 4 | 03 When Will You Sell? |
+| What is the offer? | 5 | 04 What's the Offer? |
+| What is the plan? | 6 | 05 Build It |
 
 ## The three case studies
 
@@ -27,8 +31,8 @@ Slides 13, 24 and 31 are built and sourced. Each has a narrow empty frame on the
 | Slide | Case | Video |
 |---|---|---|
 | 13 | REI closed on Black Friday | youtube.com/watch?v=lMsxrJeJ8lU · 2:21 |
-| 29 | Miette, a four-shop bakery | youtube.com/watch?v=EYBbftM9LuY · 2:10 |
-| 36 | Patagonia, Do Not Buy This Jacket | youtube.com/watch?v=gtvqMBH0wS8 · 0:29 |
+| 30 | Miette, a four-shop bakery | youtube.com/watch?v=EYBbftM9LuY · 2:10 |
+| 37 | Patagonia, Do Not Buy This Jacket | youtube.com/watch?v=gtvqMBH0wS8 · 0:29 |
 
 Easiest on the day: open the link in a browser tab when you reach the slide, play it, close the tab. Nothing to prepare.
 
@@ -37,7 +41,9 @@ Easiest on the day: open the link in a browser tab when you reach the slide, pla
 | File | What it is |
 |---|---|
 | Participant-Sheet_Print.pdf | The one-page double-sided worksheet. Four questions on the front, the Q4 moment menu on the back. Print one per person. |
-| Q4-2026_Moment-Menu.pdf | The full moment menu with what each date is good for and a small-business play for each. |
+| Q4-2026_Moment-Menu.pdf | The short moment menu, the one they use in the room. |
+| Guide_Q4-Calendar_Oct-to-Jan.pdf | The full calendar, October through January. Sixty-plus dates, three tiers, a play for each, and January included because nobody plans for it. |
+| Guide_Marketing-Channels.pdf | The eleven categories and fifty-plus channels, with a real small business example for each. |
 
 ## Backup printables
 

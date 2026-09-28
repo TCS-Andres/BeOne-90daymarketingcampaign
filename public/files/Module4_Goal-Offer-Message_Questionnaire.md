@@ -1,4 +1,4 @@
-# Module 3: What's the Offer?
+# Module 04: What's the Offer?
 
 **Build Your AI-Powered 90-Day Marketing Campaign for the Holidays**
 Branches B1 · Facilitated by The Creative Strategist

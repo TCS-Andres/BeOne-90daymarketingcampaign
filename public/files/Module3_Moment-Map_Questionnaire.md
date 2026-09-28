@@ -1,4 +1,4 @@
-# Module 2: When Will You Sell?
+# Module 03: When Will You Sell?
 
 **Build Your AI-Powered 90-Day Marketing Campaign for the Holidays**
 Branches B1 · Facilitated by The Creative Strategist

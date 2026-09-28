@@ -1,4 +1,4 @@
-# Module 2 Prompt: Your Q4 Moment Map
+# Module 03 Prompt: Your Q4 Moment Map
 
 > **How to use this file:** Paste this whole thing into your **My 90-Day Campaign** project in Claude, with your seven answers filled into the INPUT section. Your Master Brain and your Q4 Customer Report from Module 1 are already in that project, so Claude will use both automatically.
 >
@@ -114,7 +114,7 @@ For the owner who runs out of time in November, and many will: name the two mome
 ## CLOSING NOTE
 End with exactly this line:
 
-> *Your dates are set. Next: Module 3, decide what you are actually offering and the one message that carries all 90 days.*
+> *Your dates are set. Next: Module 04, decide what you are actually offering and the one message that carries all 90 days.*
 
 ## TONE
 Direct, warm, and protective. You are the friend who tells them the truth about their calendar before it costs them. Confident enough to cut things. Never harsh, never hedging.
