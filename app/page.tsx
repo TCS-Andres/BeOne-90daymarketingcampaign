@@ -4,8 +4,9 @@ import { useCallback, useMemo, useState } from "react";
 import { MODULES, TOOLS } from "./lib/modules";
 import ModuleSection from "./components/ModuleSection";
 import Logos from "./components/Logos";
+import { SideNav, TopNav } from "./components/SectionNav";
 
-const NAV = MODULES.map((m) => ({ slug: m.slug, title: m.title }));
+const NAV = MODULES.map((m) => ({ slug: m.slug, num: m.num, title: m.title, optional: m.optional }));
 
 export default function Page() {
   const [prog, setProg] = useState<Record<string, { done: number; total: number }>>({});
@@ -14,18 +15,18 @@ export default function Page() {
     setProg((p) => (p[slug]?.done === done && p[slug]?.total === total ? p : { ...p, [slug]: { done, total } }));
   }, []);
 
-  const { done, total, pct } = useMemo(() => {
+  const { done, total } = useMemo(() => {
     const vals = Object.values(prog);
     const d = vals.reduce((s, v) => s + v.done, 0);
     const t = vals.reduce((s, v) => s + v.total, 0);
-    return { done: d, total: t, pct: t ? Math.round((d / t) * 100) : 0 };
+    return { done: d, total: t };
   }, [prog]);
 
   return (
     <main>
       {/* Hero */}
       <header className="bg-navy text-cream">
-        <div className="mx-auto max-w-5xl px-5 py-16 sm:px-8 sm:py-24">
+        <div className="mx-auto max-w-7xl px-5 py-16 sm:px-8 sm:py-24 lg:pl-[266px]">
           <Logos height={38} />
           <h1 className="mt-8 text-3xl font-semibold leading-tight tracking-tight sm:text-5xl">
             Build Your AI-Powered 90-Day Marketing Campaign for the Holidays
@@ -56,37 +57,19 @@ export default function Page() {
         </div>
       </header>
 
-      {/* Sticky nav with progress */}
-      <nav className="sticky top-0 z-30 border-b border-line bg-cream/95 backdrop-blur supports-[backdrop-filter]:bg-cream/80">
-        <div className="mx-auto max-w-5xl px-5 sm:px-8">
-          <div className="flex items-center gap-4 overflow-x-auto py-3">
-            {NAV.map((n) => (
-              <a key={n.slug} href={"#" + n.slug} className="whitespace-nowrap text-sm text-muted transition hover:text-navy">
-                {n.title}
-              </a>
-            ))}
-          </div>
-          <div className="pb-2.5">
-            <div className="flex items-center gap-3">
-              <div className="h-1.5 flex-1 overflow-hidden rounded-full bg-line">
-                <div className="h-full rounded-full bg-gold transition-all duration-500" style={{ width: pct + "%" }} />
-              </div>
-              <span className="whitespace-nowrap text-xs tabular-nums text-muted">
-                {done} of {total} answered
-              </span>
-            </div>
-          </div>
-        </div>
-      </nav>
+      <TopNav items={NAV} progress={prog} done={done} total={total} />
 
       {/* Modules */}
-      <div className="mx-auto max-w-5xl px-5 sm:px-8">
+      <div className="mx-auto max-w-7xl px-5 sm:px-8">
+        <div className="lg:grid lg:grid-cols-[210px_minmax(0,1fr)] lg:gap-14">
+          <SideNav items={NAV} progress={prog} />
+          <div className="min-w-0">
         {MODULES.map((m) => (
           <ModuleSection key={m.slug} module={m} onProgress={onProgress} />
         ))}
 
         {/* Tools */}
-        <section id="tools" className="scroll-mt-24 border-t border-line py-14 sm:py-20">
+        <section id="tools" className="scroll-mt-28 lg:scroll-mt-10 border-t border-line py-14 sm:py-20">
           <div className="flex items-baseline gap-4">
             <span className="text-2xl text-gold sm:text-3xl" aria-hidden>&#9733;</span>
             <h2 className="text-2xl font-semibold tracking-tight text-navy sm:text-4xl">Tools &amp; Software</h2>
@@ -118,6 +101,8 @@ export default function Page() {
             ))}
           </div>
         </section>
+          </div>
+        </div>
       </div>
 
       {/* Footer */}

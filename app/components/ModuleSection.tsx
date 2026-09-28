@@ -18,7 +18,7 @@ export default function ModuleSection({
     <section
       id={m.slug}
       className={
-        "scroll-mt-24 border-t border-line py-14 sm:py-20 " +
+        "scroll-mt-28 lg:scroll-mt-10 border-t border-line py-14 sm:py-20 " +
         (m.optional ? "-mx-5 rounded-2xl bg-bgGrey px-5 sm:-mx-8 sm:px-8" : "")
       }
     >
