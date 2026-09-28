@@ -32,15 +32,15 @@ export default function Page() {
             Build Your AI-Powered 90-Day Marketing Campaign for the Holidays
           </h1>
           <p className="mt-5 max-w-2xl text-lg leading-relaxed text-cream/80">
-            Come with your business. Leave with a complete 90-day holiday campaign ready to launch.
+            Come with your business. Leave with a complete 90-day holiday campaign plan ready to launch.
           </p>
           <p className="mt-4 max-w-2xl leading-relaxed text-cream/70">
             This page is the whole day. Work down it in order. Each module asks you some questions, then hands you
             a prompt to paste into Claude. By five o&apos;clock you will have your customer report, your dates, your
-            message, three flyers, one video, and a dated calendar through December 31.
+            message, your campaign plan, and a dated calendar through December 31.
           </p>
           <div className="mt-8 flex flex-wrap gap-2">
-            {["Your Q4 customer", "Your dates", "Your one message", "Three flyers", "One video"].map((b) => (
+            {["Your Q4 customer", "Your dates", "Your one message", "Your campaign plan", "A dated calendar"].map((b) => (
               <span key={b} className="rounded-full border border-gold/40 px-3.5 py-1.5 text-sm text-gold">
                 {b}
               </span>

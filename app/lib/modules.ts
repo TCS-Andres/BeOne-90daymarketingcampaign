@@ -343,12 +343,12 @@ export const MODULES: Module[] = [
     num: "05",
     title: "Your Next Steps",
     blurb:
-      "You came in with your business and you are leaving with your campaign. Week one is already built. Here is what happens between now and Sunday, and then every week after.",
+      "You came in with your business and you are leaving with a plan that has real dates on it. Here is what happens between now and Sunday, and then every week after.",
     files: [{ label: "The Q4 Moment Menu", href: "/files/Q4-2026_Moment-Menu.md" }],
     checklist: [
-      "Save everything in your Q4-Campaign folder, properly named",
-      "Post flyer one this week, on the date your calendar says",
-      "Post your video this week",
+      "Save your campaign plan PDF in your Q4-Campaign folder, properly named",
+      "Post the first thing on your calendar this week",
+      "Read your re-skin guide so you know how the next moment gets built",
       "Put your content hour in your phone calendar as a repeating appointment",
       "Text your accountability partner your one number and your first three due dates",
       "Ask three real customers the question you wrote in Module 1",
