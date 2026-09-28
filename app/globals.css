@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html { scroll-behavior: smooth; }
+body { background: #FBF9F5; color: #2B2B2B; -webkit-font-smoothing: antialiased; }
+
+h1, h2, h3, h4 { font-family: var(--font-display), var(--font-sans), sans-serif; letter-spacing: -0.01em; }
