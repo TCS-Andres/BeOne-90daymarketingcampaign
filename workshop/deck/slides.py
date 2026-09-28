@@ -1,0 +1,215 @@
+# Slides for "Build Your AI-Powered 90-Day Marketing Campaign for the Holidays"
+# v2: strategy and plan buildout. No flyer or video production.
+# Every slide carries a mode pill: PRESENTATION / COMPUTER WORK / COLLABORATION.
+
+STYLE_HEAD = ("A 16:9 widescreen presentation slide that blends warm documentary photography with "
+  "clean flat-vector editorial design. Warm premium palette: cream and ivory, deep navy, warm "
+  "terracotta, and amber gold. ")
+PANEL = ("Over the photograph sits a clean cream and ivory editorial panel with soft rounded corners "
+  "and a subtle frosted-glass quality, holding the text. ")
+STYLE_TAIL = ("Crisp, perfectly legible deep-navy sans-serif typography, properly aligned with clear "
+  "visual hierarchy and balanced, even spacing. Render ONLY the exact text specified above, correctly "
+  "spelled and sharp, with no extra words. Warm, human, aspirational, and premium. Keep the lower edge "
+  "of the slide calm and uncluttered with clean negative space. Do not add any captions, watermarks, "
+  "UI elements, brand marks, or placeholder text anywhere on the slide.")
+PHOTO = "soft natural light, shallow depth of field, gently lightened and airy, premium magazine feel. "
+
+MODES = {
+  "P": ('deep navy', 'PRESENTATION'),
+  "C": ('warm terracotta', 'COMPUTER WORK'),
+  "T": ('amber gold', 'COLLABORATION'),
+}
+
+def pill(mode):
+    if not mode:
+        return ""
+    color, label = MODES[mode]
+    return ('In the top right corner of the cream panel, set apart from the headline, a small '
+            'pill-shaped tag in %s with crisp white uppercase lettering reading "%s". ' % (color, label))
+
+def bg(desc):
+    return "Background: a warm, candid golden-hour photograph of " + desc + ", " + PHOTO
+
+# (number, short-name, mode, background, body)
+SLIDES = [
+(1,"Title",None,
+ "a confident, diverse small-business owner standing proudly in their warmly lit shop decorated for the holidays",
+ 'Centered layout. Large bold headline: "Build Your AI-Powered 90-Day Marketing Campaign". Beneath it a smaller subheadline: "Come with your business. Leave with a plan ready to launch.". A small terracotta pill-shaped tag below: "All-Day Hands-On Workshop". Add a few simple flat-vector line icons in navy, terracotta and amber (a calendar, a spark, a target, a checklist) as tasteful accents, elegant and uncluttered.'),
+
+(2,"Welcome","P",
+ "a bright workshop room where diverse small-business owners settle in with open laptops and coffee",
+ 'Headline: "Welcome to the First Session of the New Cohort". Beneath it a subheadline: "Today you build a real plan, not notes about planning.". Add a few simple flat-vector line icons in navy, terracotta and amber (a friendly waving hand and a sunrise spark), placed tastefully.'),
+
+(3,"What-You-Leave-With","P",
+ "a small-business owner smiling at a laptop showing a clean calendar and plan on screen",
+ 'Headline at the top: "What You Leave With Today". Below it, 5 short items as a tidy row of clean rounded cream cards, each with a simple flat-vector line icon (a person, a calendar, a speech bubble, a document, a checklist) above its label: "Your Q4 customer" "Your chosen dates" "Your one message" "Your campaign plan" "A dated 90-day calendar".'),
+
+(4,"How-the-Day-Flows","P",
+ "a workshop room mid-session with diverse owners typing and talking together",
+ 'Headline at the top: "How the Day Flows". A single clean horizontal row of five steps connected by small terracotta right-pointing arrows: "Get set up" then "Who" then "When" then "What" then "The plan". Below the flow, a small caption line: "Doors 9:00 | Lunch 12:30 | Wrap 5:00".'),
+
+(5,"Three-Modes","P",
+ "an overhead view of a table with a laptop, a notebook and two coffee cups, two people talking across it",
+ 'Headline at the top: "Three Kinds of Work Today". Below it, 3 items as a tidy row of clean rounded cream cards, each with a small colored pill label above a short line. Card one, navy pill "PRESENTATION": "I teach, you listen". Card two, terracotta pill "COMPUTER WORK": "You build, I circulate". Card three, amber pill "COLLABORATION": "You talk to each other". Beneath them, one small navy caption line: "Watch the corner of each slide to know which one we are in.".'),
+
+(6,"Before-We-Start","C",
+ "open laptops, a coffee cup, and a hand on a trackpad in soft morning light",
+ 'Headline at the top: "Before We Start". Below it, 4 short items as a tidy row of clean rounded cream cards, each with a simple flat-vector line icon (a wifi symbol, a key, a folder, a checkmark) above its label: "Wi-Fi on" "Logged into Claude" "Master Brain ready" "Project created".'),
+
+(7,"T1-Divider","P",
+ "a small-business owner at a sunlit desk laying out printed notes in a neat row",
+ 'A small terracotta uppercase kicker label "TOPIC 1" above a large bold navy headline "What a Campaign Really Is". Beneath the headline, a small subline: "A quick refresher, then we build.". Include one simple flat-vector line-icon motif (a connected path of three dots) as a quiet accent.'),
+
+(8,"What-Is-a-Campaign","P",
+ "a shop owner pinning a simple three-step plan to a corkboard",
+ 'Headline: "What Is a Marketing Campaign?". Beneath it, one clear definition line in slightly larger text: "One message, sent on purpose, to one group of people, over a set period of time.". Below that a small terracotta caption: "Everything else is just posting.". Include one simple flat-vector line icon (a target with an arrow).'),
+
+(9,"Campaign-vs-Posting","P",
+ "two neighboring shopfronts at dusk, one warmly lit and busy and one dim and empty",
+ 'Headline at the top: "A Campaign vs. Random Posting". Below it, two clean rounded cream cards side by side of equal size. Left card, small terracotta label "RANDOM POSTING", with 3 short lines: "New idea every time" "No date to build toward" "Nobody remembers it". Right card, small amber label "A CAMPAIGN", with 3 short lines: "Same message, many times" "Everything points at one date" "People remember it".'),
+
+(10,"Six-Parts","P",
+ "an overhead view of hands arranging six small cards into a neat grid on a wooden table",
+ 'Headline at the top: "The Six Parts of Any Campaign". Below it, 6 short items as a tidy grid of clean rounded cream cards, two rows of three, each with a simple flat-vector line icon above its label: "A goal" "An audience" "An offer" "A message" "Channels" "A deadline".'),
+
+(11,"Four-Questions","P",
+ "a business owner thinking with a pen at a sunlit table, notebook open",
+ 'Headline at the top: "Four Questions. That Is the Whole Day.". Below it, 4 large numbered items stacked as clean rounded cream rows, each with a small terracotta number badge: "1. To whom?" "2. When?" "3. What is the offer?" "4. What is the plan?".'),
+
+(12,"One-Message-Many-Skins","P",
+ "a tailor fitting the same well-made jacket on three different mannequins",
+ 'Headline: "One Message, Many Skins". Beneath it a subheadline: "Write your message once. Dress it differently for every date.". Below that, a single clean horizontal row of four small cream cards connected by faint terracotta lines, each labeled: "Thanksgiving" "Black Friday" "Christmas" "New Year". Include a small amber note line beneath: "Same promise underneath all four.".'),
+
+(13,"Case-Study-1","P",
+ "a bright empty trail at sunrise with mountains behind, a closed shop door visible at the left edge of the frame",
+ 'A small terracotta uppercase kicker label "CASE STUDY" at the top left, above a large bold navy headline "REI Closed on Black Friday". Beneath the headline, one line: "One message they kept saying for years: go outside instead.". Below that, 3 short items as a tidy row of clean rounded cream cards, each with a small amber number-style stat above a short label: card one big text "2.7B" and label "media impressions in 24 hours", card two big text "+23%" and label "digital sales that year", card three big text "150+" and label "other retailers joined them". At the bottom of the panel, a single small navy line: "You do not have to close. You need one idea worth repeating.". On the right edge of the cream panel, a narrow empty rounded rectangle with a soft neutral fill and a thin dashed navy border, completely blank inside, reserved for a video still to be added later.'),
+
+(14,"T2-Divider","P",
+ "a shop owner leaning on the counter in real conversation with a customer",
+ 'A small terracotta uppercase kicker label "TOPIC 2" above a large bold navy headline "Who Are You Selling To?". Beneath the headline, a small subline: "Your holiday customer is not your normal customer.". Include one simple flat-vector line-icon motif (two people talking) as a quiet accent.'),
+
+(15,"Different-in-Q4","P",
+ "a busy shopper checking a list on their phone in a warmly lit store aisle",
+ 'Headline at the top: "Your Customer Changes in Q4". Below it, 4 short items as a tidy row of clean rounded cream cards, each with a simple flat-vector line icon (a clock, a gift, a magnifying glass, a wallet) above its label: "In a hurry" "Buying for others" "Comparing more" "Money set aside".'),
+
+(16,"Gift-vs-Self","P",
+ "one person wrapping a gift at a kitchen table while another tries something on in a mirror",
+ 'Headline at the top: "Two Very Different Buyers". Below it, two clean rounded cream cards side by side of equal size. Left card, small terracotta label "GIFT BUYER", with 2 short lines: "Worried: will they like it?" "Needs: reassurance". Right card, small amber label "SELF BUYER", with 2 short lines: "Worried: do I deserve it?" "Needs: permission". Beneath both, one small navy caption line: "Same product. Completely different words.".'),
+
+(17,"What-Moves-Them","P",
+ "a hand reaching for the last item on a nearly empty shelf",
+ 'Headline at the top: "What Actually Moves Them". Below it, 5 short items as a tidy row of clean rounded cream cards, each with a simple flat-vector line icon above its label: "A real deadline" "Buying for someone loved" "Others already chose it" "Not missing out" "Permission to splurge".'),
+
+(18,"Work-Module-1","C",
+ "a focused small-business owner typing at a laptop in a sunlit room, notebook open beside them",
+ 'Headline at the top: "Your Turn: Module 01". Beneath it a subheadline: "Who are you selling to?". Below that, 3 short items as a tidy row of clean rounded cream cards, each with a small terracotta number badge above its label: "1. Answer 13 questions" "2. Copy your prompt" "3. Read your Customer Report". Beneath them, one small navy caption line: "45 minutes. I am walking the room.".'),
+
+(19,"Share-Out-1","T",
+ "three diverse small-business owners leaning in and laughing around an open laptop",
+ 'Headline: "Share Out". Beneath it a subheadline: "Read your answer to question seven out loud.". Below that, one small amber caption line: "What you wish customers understood is usually your best marketing line.". Include a few simple flat-vector line icons in navy, terracotta and amber (a speech bubble and a lightbulb), placed tastefully.'),
+
+(20,"T3-Divider","P",
+ "a wall calendar in warm light with a few dates circled in pencil",
+ 'A small terracotta uppercase kicker label "TOPIC 3" above a large bold navy headline "When Will You Sell?". Beneath the headline, a small subline: "Pick three to five. Not eleven.". Include one simple flat-vector line-icon motif (a calendar with a circled date) as a quiet accent.'),
+
+(21,"Q4-Calendar","P",
+ "an overhead view of a three-month paper calendar spread across a wooden table",
+ 'Headline at the top: "Your Next 90 Days". Below it, three clean rounded cream cards side by side, each with a small terracotta month label and short date lines beneath. Card one "OCTOBER": "Halloween, Oct 31". Card two "NOVEMBER": "Thanksgiving, Nov 26" "Black Friday, Nov 27" "Small Business Saturday, Nov 28". Card three "DECEMBER": "Hanukkah, Dec 4 to 12" "Super Saturday, Dec 19" "Christmas, Dec 25".'),
+
+(22,"Six-Days","P",
+ "a warmly lit small shop with a steady stream of customers coming through the door",
+ 'Headline: "Six Days in a Row". Beneath it a subheadline: "Thanksgiving through Giving Tuesday is not six campaigns. It is one campaign with six doors.". Below that, a single clean horizontal row of six small cream date cards connected by faint terracotta lines: "Nov 26" "Nov 27" "Nov 28" "Nov 29" "Nov 30" "Dec 1".'),
+
+(23,"Trend-Days","P",
+ "a shop owner holding up their phone to snap a quick casual photo of a product on the counter",
+ 'Headline: "Trend Days: Fifteen Minutes Each". Beneath it a subheadline: "Not campaigns. Single posts that keep you visible between the big moments.". Below that, 3 short items as a tidy row of clean rounded cream cards, each with a simple flat-vector line icon (a camera, a pencil, a paper plane) above its label: "Take one photo" "Write two sentences" "Post it".'),
+
+(24,"Case-Study-2","P",
+ "a small neighbourhood bakery counter with pastries under glass and a tablet on the counter, owner in an apron just out of focus behind",
+ 'A small terracotta uppercase kicker label "CASE STUDY" at the top left, above a large bold navy headline "A Business Your Size". Beneath the headline, one line: "Miette, a four-shop bakery in San Francisco, made buying online as easy as buying at the counter.". Below that, 3 short items as a tidy row of clean rounded cream cards, each with a small amber number-style stat above a short label: card one big text "+105%" and label "cake sales", card two big text "+53%" and label "holiday candy sales", card three big text "4" and label "shops, one owner". At the bottom of the panel, a single small navy line: "They did not run an ad. They removed the friction between wanting it and having it.". On the right edge of the cream panel, a narrow empty rounded rectangle with a soft neutral fill and a thin dashed navy border, completely blank inside, reserved for a video still to be added later.'),
+
+(25,"Which-Dates-Fit","P",
+ "a business owner crossing items off a list with visible relief",
+ 'Headline at the top: "Which Dates Are Actually Yours?". Below it, 4 large numbered items stacked as clean rounded cream rows, each with a small terracotta number badge: "1. Does my customer care about this date?" "2. Can I deliver if it works?" "3. Do I have the lead time?" "4. Is this authentically mine?".'),
+
+(26,"Work-Module-2","C",
+ "a small-business owner at a laptop with a paper calendar beside them, pen in hand, choosing dates",
+ 'Headline at the top: "Your Turn: Module 02". Beneath it a subheadline: "When will you sell?". Below that, 3 short items as a tidy row of clean rounded cream cards, each with a small terracotta number badge above its label: "1. Tick your moments" "2. Copy your prompt" "3. Read your Moment Map". Beneath them, one small navy caption line: "35 minutes. Claude will talk you down to three to five.".'),
+
+(27,"Moment-Draft","T",
+ "a circle of diverse small-business owners seated and talking in a bright room",
+ 'Headline: "Moment Draft". Beneath it a subheadline: "Round the room. Your name, your business, your three moments.". Below that, one small amber caption line: "One sentence each. No explaining. Saying it out loud is what makes you keep it.". Include a few simple flat-vector line icons in navy, terracotta and amber (a circle of small dots and a speech bubble), placed tastefully.'),
+
+(28,"T4-Divider","P",
+ "a baker carefully tying a ribbon around a finished box on a counter",
+ 'A small terracotta uppercase kicker label "TOPIC 4" above a large bold navy headline "What Is the Offer?". Beneath the headline, a small subline: "And the one message that carries all 90 days.". Include one simple flat-vector line-icon motif (a price tag) as a quiet accent.'),
+
+(29,"Five-Offer-Shapes","P",
+ "an overhead view of five neatly wrapped packages of different sizes on a wooden surface",
+ 'Headline at the top: "Five Shapes an Offer Can Take". Below it, 5 short items as a tidy row of clean rounded cream cards, each with a simple flat-vector line icon above its label: "Bundle" "Early access" "Gift with purchase" "Tiered" "Limited number".'),
+
+(30,"Cant-Discount","P",
+ "a craftsperson concentrating on detailed handwork at a well-lit bench",
+ 'Headline at the top: "You Do Not Have to Discount". Below it, 4 short items as a tidy row of clean rounded cream cards, each with a simple flat-vector line icon above its label: "Add, do not subtract" "Bundle two things" "Let regulars go first" "Limit the number". Beneath them, one small terracotta caption line: "Cutting price in December costs you all of next year.".'),
+
+(31,"Case-Study-3","P",
+ "a well-worn quality jacket hanging on a wooden peg in warm window light",
+ 'A small terracotta uppercase kicker label "CASE STUDY" at the top left, above a large bold navy headline "Do Not Buy This Jacket". Beneath the headline, one line: "Patagonia ran a full-page Black Friday ad in 2011 telling people not to buy it.". Below that, 3 short items as a tidy row of clean rounded cream cards, each with a small amber number-style stat above a short label: card one big text "$0" and label "discounted, nothing was on sale", card two big text "$415M" and label "revenue before", card three big text "$543M" and label "revenue the year after". At the bottom of the panel, a single small navy line: "They did not cut price. They gave people a reason to believe them.". On the right edge of the cream panel, a narrow empty rounded rectangle with a soft neutral fill and a thin dashed navy border, completely blank inside, reserved for a video still to be added later.'),
+
+(32,"Work-Module-3","C",
+ "a small-business owner writing thoughtfully in a notebook next to an open laptop",
+ 'Headline at the top: "Your Turn: Module 03". Beneath it a subheadline: "What is the offer, and what is your one message?". Below that, 3 short items as a tidy row of clean rounded cream cards, each with a small terracotta number badge above its label: "1. Answer 14 questions" "2. Copy your prompt" "3. Find your promise". Beneath them, one small navy caption line: "45 minutes. This is the thinking block. Take your time.".'),
+
+(33,"Say-It-Out-Loud","T",
+ "two business owners sitting close, one listening intently as the other speaks",
+ 'Headline: "Say It Out Loud". Beneath it a subheadline: "Tell your partner your promise. From memory. In one breath.". Below that, one small amber caption line: "If you stumble, it is not a promise yet. It is a paragraph.". Include a few simple flat-vector line icons in navy, terracotta and amber (a speech bubble and a listening ear), placed tastefully.'),
+
+(34,"T5-Divider","P",
+ "a tidy desk with an open planner, a laptop and a cup of coffee in warm afternoon light",
+ 'A small terracotta uppercase kicker label "TOPIC 5" above a large bold navy headline "Your 90-Day Plan". Beneath the headline, a small subline: "Everything you decided today, with dates on it.". Include one simple flat-vector line-icon motif (a calendar with a checkmark) as a quiet accent.'),
+
+(35,"What-Your-Plan-Contains","P",
+ "an overhead view of a printed plan document and a calendar laid neatly side by side on a table",
+ 'Headline at the top: "What Your Plan Contains". Below it, 4 short items as a tidy row of clean rounded cream cards, each with a simple flat-vector line icon (a target, a calendar, a repeat arrow, a checklist) above its label: "Your offer per moment" "A dated calendar to Dec 31" "A re-skin guide" "A weekly checklist".'),
+
+(36,"Weekly-Rhythm","P",
+ "a tidy weekly planner open on a desk with a few items neatly checked off",
+ 'Headline: "Your Weekly Rhythm". Beneath it a subheadline: "The same small week, repeated for thirteen weeks.". Below that, two clean rounded cream cards side by side. Left card, small terracotta label "THE TARGET", with 2 short lines: "Three posts" "One video". Right card, small amber label "IF TIME IS SHORT", with 2 short lines: "One post" "One video". Beneath both, a small navy caption: "A small plan you keep beats a big one you quit.".'),
+
+(37,"Re-Skin","P",
+ "the same shop window styled two different ways, warm and inviting in both",
+ 'Headline: "One Campaign, Many Moments". Beneath it a subheadline: "Your plan includes a re-skin guide: turn Thanksgiving into the next moment in about twenty minutes.". Below that, two clean rounded cream cards side by side. Left card, small terracotta label "WHAT CHANGES", with 2 short lines: "The date" "The offer". Right card, small amber label "WHAT STAYS", with 2 short lines: "Your message" "Your promise".'),
+
+(38,"Work-Module-4","C",
+ "a small-business owner looking satisfied at a laptop showing a long organised calendar",
+ 'Headline at the top: "Your Turn: Module 04". Beneath it a subheadline: "Build the plan.". Below that, 3 short items as a tidy row of clean rounded cream cards, each with a small terracotta number badge above its label: "1. Answer 12 questions" "2. Copy your prompt" "3. Save your plan as a PDF". Beneath them, one small navy caption line: "35 minutes. This is the one you take home.".'),
+
+(39,"Pressure-Test","T",
+ "two small-business owners side by side comparing what is on their two laptop screens",
+ 'Headline: "Pressure-Test Your Plan". Beneath it a subheadline: "Swap with your partner. Read their calendar, not their campaign.". Below that, 3 short items as a tidy row of clean rounded cream cards, each with a simple flat-vector line icon above its label: "Is a date impossible?" "Is a week too full?" "What would you cut?".'),
+
+(40,"What-You-Built","P",
+ "a satisfied business owner leaning back from a laptop showing a finished plan",
+ 'Headline at the top: "What You Built Today". Below it, 5 short items as a tidy row of clean rounded cream cards, each with a simple flat-vector line icon and a checkmark above its label: "Customer report" "Your dates" "Your message" "Your campaign plan" "A dated calendar". Beneath them, one small amber caption line: "You came in with a business. You are leaving with a plan.".'),
+
+(41,"Next-Steps","P",
+ "a hand writing a short list in a notebook beside a phone and a cup of coffee",
+ 'Headline at the top: "This Week, Before Sunday". Below it, 4 large numbered items stacked as clean rounded cream rows, each with a small terracotta number badge: "1. Save your plan where you will find it" "2. Put your content hour in your calendar" "3. Post the first thing on your calendar" "4. Text your partner your one number".'),
+
+(42,"Trade-Plans","T",
+ "two small-business owners shaking hands warmly across a table, laptops open",
+ 'Headline: "Trade Plans With Your Partner". Beneath it a subheadline: "Send them your one number and your first three dates. Right now, before you leave.". Below that, one small amber caption line: "A promise made to a real person is the reason you will still be posting in November.". Include a few simple flat-vector line icons in navy, terracotta and amber (a handshake and a phone), placed tastefully.'),
+
+(43,"Thank-You",None,
+ "a warm wide view of a workshop room at the end of the day, people standing and talking",
+ 'Centered layout. Large bold headline: "Thank You". Beneath it a smaller subheadline: "You came in with your business. You are leaving with your plan.". A small terracotta pill-shaped tag below: "See you next month.". Include a few simple flat-vector line icons in navy, terracotta and amber (a spark and a handshake) as tasteful accents.'),
+]
+
+def prompt_for(s):
+    n, name, mode, background, body = s
+    return STYLE_HEAD + bg(background) + PANEL + body + " " + pill(mode) + STYLE_TAIL
+
+def filename_for(s):
+    return "Slide-%02d_%s.png" % (s[0], s[1])
+
+MODE_NAME = {"P": "Presentation", "C": "Computer work", "T": "Collaboration", None: "Title"}
