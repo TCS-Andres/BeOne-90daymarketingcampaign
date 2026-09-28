@@ -168,39 +168,55 @@ SLIDES = [
  "a tidy desk with an open planner, a laptop and a cup of coffee in warm afternoon light",
  'A small terracotta uppercase kicker label "TOPIC 5" above a large bold navy headline "Your 90-Day Plan". Beneath the headline, a small subline: "Everything you decided today, with dates on it.". Include one simple flat-vector line-icon motif (a calendar with a checkmark) as a quiet accent.'),
 
-(35,"What-Your-Plan-Contains","P",
+(35,"What-Is-a-Channel","P",
+ "a single shopfront seen from across the street with several different paths and pavements leading toward its door",
+ 'Headline: "What Is a Marketing Channel?". Beneath it, one clear definition line in slightly larger text: "Any path a customer can take to find you, trust you, and do business with you.". Below that, 3 short items as a tidy row of clean rounded cream cards, each with a simple flat-vector line icon (a magnifying glass, a heart, a handshake) above its label: "Find you" "Trust you" "Buy from you". At the bottom, one small terracotta caption line: "You do not need every channel. Nobody does.".'),
+
+(36,"Eleven-Categories","P",
+ "an overhead view of a wooden table with eleven small labelled cards laid out in a neat grid",
+ 'Headline at the top: "Eleven Categories. Fifty Channels.". Below it, 11 short labels arranged as a tidy grid of small clean rounded cream cards, each with a small amber number badge: "01 Owned digital" "02 Organic social" "03 Paid ads" "04 Content and authority" "05 Local and community" "06 Partnerships and referrals" "07 Traditional and offline" "08 Marketplaces and directories" "09 PR and earned media" "10 Experiential and guerrilla" "11 Emerging and AI". At the bottom, one small navy caption line: "The full guide is on the hub. Use it as a menu, not a checklist.".'),
+
+(37,"Found-Build-Accelerate","P",
+ "three different paths converging on one warmly lit shop door at golden hour",
+ 'Headline at the top: "Three Channels Is a Complete System". Below it, three clean rounded cream cards side by side of equal size, each with a small coloured pill label above two short lines. Card one, navy pill "FOUND": "How new people discover you" and "Search, maps, directories". Card two, terracotta pill "BUILD": "How you stay in touch" and "Email, social, community". Card three, amber pill "ACCELERATE": "How you speed it up" and "Paid ads, partnerships". Beneath all three, one small navy caption line: "One of each. That is a complete starter system for most small businesses.".'),
+
+(38,"Which-Three","P",
+ "a business owner sitting back thoughtfully at a desk with three cards laid out in front of them",
+ 'Headline at the top: "Which Three Are Yours?". Below it, 3 large numbered items stacked as clean rounded cream rows, each with a small terracotta number badge: "1. Where do your best customers already spend attention?" "2. Which channels match how you naturally work?" "3. What could you sustain for six months straight?". At the bottom, one small amber caption line: "Two done with excellence beats six done badly.".'),
+
+(39,"What-Your-Plan-Contains","P",
  "an overhead view of a printed plan document and a calendar laid neatly side by side on a table",
  'Headline at the top: "What Your Plan Contains". Below it, 4 short items as a tidy row of clean rounded cream cards, each with a simple flat-vector line icon (a target, a calendar, a repeat arrow, a checklist) above its label: "Your offer per moment" "A dated calendar to Dec 31" "A re-skin guide" "A weekly checklist".'),
 
-(36,"Weekly-Rhythm","P",
+(40,"Weekly-Rhythm","P",
  "a tidy weekly planner open on a desk with a few items neatly checked off",
  'Headline: "Your Weekly Rhythm". Beneath it a subheadline: "The same small week, repeated for thirteen weeks.". Below that, two clean rounded cream cards side by side. Left card, small terracotta label "THE TARGET", with 2 short lines: "Three posts" "One video". Right card, small amber label "IF TIME IS SHORT", with 2 short lines: "One post" "One video". Beneath both, a small navy caption: "A small plan you keep beats a big one you quit.".'),
 
-(37,"Re-Skin","P",
+(41,"Re-Skin","P",
  "the same shop window styled two different ways, warm and inviting in both",
  'Headline: "One Campaign, Many Moments". Beneath it a subheadline: "Your plan includes a re-skin guide: turn Thanksgiving into the next moment in about twenty minutes.". Below that, two clean rounded cream cards side by side. Left card, small terracotta label "WHAT CHANGES", with 2 short lines: "The date" "The offer". Right card, small amber label "WHAT STAYS", with 2 short lines: "Your message" "Your promise".'),
 
-(38,"Work-Module-4","C",
+(42,"Work-Module-4","C",
  "a small-business owner looking satisfied at a laptop showing a long organised calendar",
  'Headline at the top: "Your Turn: Module 04". Beneath it a subheadline: "Build the plan.". Below that, 3 short items as a tidy row of clean rounded cream cards, each with a small terracotta number badge above its label: "1. Answer 12 questions" "2. Copy your prompt" "3. Save your plan as a PDF". Beneath them, one small navy caption line: "35 minutes. This is the one you take home.".'),
 
-(39,"Pressure-Test","T",
+(43,"Pressure-Test","T",
  "two small-business owners side by side comparing what is on their two laptop screens",
  'Headline: "Pressure-Test Your Plan". Beneath it a subheadline: "Swap with your partner. Read their calendar, not their campaign.". Below that, 3 short items as a tidy row of clean rounded cream cards, each with a simple flat-vector line icon above its label: "Is a date impossible?" "Is a week too full?" "What would you cut?".'),
 
-(40,"What-You-Built","P",
+(44,"What-You-Built","P",
  "a satisfied business owner leaning back from a laptop showing a finished plan",
  'Headline at the top: "What You Built Today". Below it, 5 short items as a tidy row of clean rounded cream cards, each with a simple flat-vector line icon and a checkmark above its label: "Customer report" "Your dates" "Your message" "Your campaign plan" "A dated calendar". Beneath them, one small amber caption line: "You came in with a business. You are leaving with a plan.".'),
 
-(41,"Next-Steps","P",
+(45,"Next-Steps","P",
  "a hand writing a short list in a notebook beside a phone and a cup of coffee",
  'Headline at the top: "This Week, Before Sunday". Below it, 4 large numbered items stacked as clean rounded cream rows, each with a small terracotta number badge: "1. Save your plan where you will find it" "2. Put your content hour in your calendar" "3. Post the first thing on your calendar" "4. Text your partner your one number".'),
 
-(42,"Trade-Plans","T",
+(46,"Trade-Plans","T",
  "two small-business owners shaking hands warmly across a table, laptops open",
  'Headline: "Trade Plans With Your Partner". Beneath it a subheadline: "Send them your one number and your first three dates. Right now, before you leave.". Below that, one small amber caption line: "A promise made to a real person is the reason you will still be posting in November.". Include a few simple flat-vector line icons in navy, terracotta and amber (a handshake and a phone), placed tastefully.'),
 
-(43,"Thank-You",None,
+(47,"Thank-You",None,
  "a warm wide view of a workshop room at the end of the day, people standing and talking",
  'Centered layout. Large bold headline: "Thank You". Beneath it a smaller subheadline: "You came in with your business. You are leaving with your plan.". A small terracotta pill-shaped tag below: "See you next month.". Include a few simple flat-vector line icons in navy, terracotta and amber (a spark and a handshake) as tasteful accents.'),
 ]

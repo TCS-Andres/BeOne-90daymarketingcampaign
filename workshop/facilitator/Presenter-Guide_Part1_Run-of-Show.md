@@ -21,7 +21,7 @@ Every slide carries a tag in the top right corner so the room always knows what 
 | **COMPUTER WORK** | Terracotta | You build, I circulate. Heads down. |
 | **COLLABORATION** | Amber | You talk to each other. Laptops down, look up. |
 
-Roughly **145 minutes of presenting, 190 minutes of computer work, 60 minutes of collaboration.** The building is the biggest block by design.
+Roughly **155 minutes of presenting, 185 minutes of computer work, 60 minutes of collaboration.** The building is still the biggest block by design.
 
 ---
 
@@ -42,12 +42,12 @@ Roughly **145 minutes of presenting, 190 minutes of computer work, 60 minutes of
 | 1:30 to 2:05 | Computer work | 26 | **Module 02.** Pick your moments. |
 | 2:05 to 2:20 | Collaboration | 27 | Moment Draft. Round the room. |
 | 2:20 to 2:45 | Presentation | 28 to 31 | **Topic 4 teach:** What is the offer, plus Case Study 3. |
-| 2:45 to 3:30 | Computer work | 32 | **Module 03.** Goal, offer and message. |
-| 3:30 to 3:45 | Collaboration | 33 | Say It Out Loud with partners. |
-| 3:45 to 3:55 | Break | none | |
-| 3:55 to 4:10 | Presentation | 34 to 37 | **Topic 5 teach:** Your 90-day plan. |
-| 4:10 to 4:45 | Computer work | 38 | **Module 04.** Build the plan. |
-| 4:45 to 5:00 | Collaboration | 39, 40, 41, 42, 43 | Pressure-test, close, trade plans, thank you. |
+| 2:45 to 3:25 | Computer work | 32 | **Module 03.** Goal, offer and message. |
+| 3:25 to 3:40 | Collaboration | 33 | Say It Out Loud with partners. |
+| 3:40 to 3:50 | Break | none | |
+| 3:50 to 4:15 | Presentation | 34 to 41 | **Topic 5 teach:** Marketing channels, then your 90-day plan. |
+| 4:15 to 4:45 | Computer work | 42 | **Module 04.** Pick your channels, build the plan. |
+| 4:45 to 5:00 | Collaboration | 43 to 47 | Pressure-test, close, trade plans, thank you. |
 
 ---
 
@@ -81,6 +81,7 @@ If a slide is still empty when you get there, talk over it. It reads as a title 
 1. **Confirm the two rooms with Steve.** He has 111 and 112. If you are covering both, the five computer-work blocks are your windows: 10:40, 1:30, 2:45, 4:10, plus Station Zero at 9:00. Each runs itself for 35 minutes or more.
 2. **Drop your case studies into slides 13, 24 and 31**, or decide to talk over them.
 3. **Open the hub and run Module 01 yourself** against your own business. Twenty minutes, and nothing surprises you in front of the room.
+4. **Skim the Marketing Channels guide**, which is now downloadable from Module 00 and Module 04 on the hub. Slides 35 to 38 teach its core idea, and Module 04 opens with three channel questions built from it. Every option on that page has an information button, so you do not have to explain all fifty channels from the front of the room.
 
 ## Before 9:00
 
@@ -108,6 +109,8 @@ In order of what to cut:
 1. **Topic 1.** Slides 10 and 11 can go to two minutes each. It is a refresher.
 2. **A case study.** Talk over it in thirty seconds instead of three minutes.
 3. **The Moment Draft.** Four volunteers instead of the whole room.
+
+**The channels section, slides 35 to 38, is new.** If you are short on time there, cut slides 35 and 36 to about a minute each and protect slide 37, Found Build Accelerate. That single slide is the whole idea, and the first three questions of Module 04 depend on it.
 
 **Never cut Module 03 or Module 04.** Module 03 is where the message gets made, and without it there is no campaign, just a list of dates. Module 04 is the thing they take home. If it comes to it, run Module 04 short and let them finish it tonight, but do not skip starting it in the room.
 

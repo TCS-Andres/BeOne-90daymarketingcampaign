@@ -347,12 +347,50 @@ Walk and listen. When you hear one that lands, ask that person to say it to the 
 
 > Last question. Everything you decided today, with dates on it.
 
-## Slide 35 · What Your Plan Contains
+## Slide 35 · What Is a Marketing Channel?
+*Presentation.* **3:57.**
+
+> A marketing channel is any path a customer can take to find you, trust you, and do business with you. That is the whole definition. Your Instagram is a channel. So is the sign on your van. So is the neighbour who keeps recommending you.
+
+> And here is the part people get wrong: you do not need all of them. Nobody does. Not even the big companies.
+
+Keep this short. It is a definition slide, not a lecture.
+
+## Slide 36 · Eleven Categories. Fifty Channels.
+*Presentation.* **4:00.**
+
+> There are eleven categories and more than fifty channels available to a small business today. Owned digital, organic social, paid ads, content and authority, local and community, partnerships and referrals, traditional and offline, marketplaces and directories, PR and earned media, experiential and guerrilla, and the new AI ones.
+
+> I am not going to walk you through fifty. The full guide is on the hub and it is yours to keep, with a real small business example for every single one.
+
+**Point them at the download now**, Module 04, top of the section. Tell them it is a menu, not a checklist. That phrase does a lot of work.
+
+**Worth saying out loud:** most people in this room are quietly doing six channels badly and feeling guilty about four more. The guide exists to let them stop.
+
+## Slide 37 · Three Channels Is a Complete System
+*Presentation.* **4:03. This is the slide that matters in this section.**
+
+> Here is the rule of thumb, and it is the only thing from this section you have to remember. One channel to be FOUND, so strangers can discover you: search, maps, directories, a market stall. One channel to BUILD, so the people who already know you keep hearing from you: email, text, one social platform. And one to ACCELERATE, if you have the budget or the partners: paid ads, a referral programme, a cross-promotion.
+>
+> One of each. That is a complete marketing system. Not fifty channels. Three.
+
+**Ask the room, out loud:** "which one of those three do you think most of you are missing?" It is almost always FOUND. People post constantly to an audience that already knows them, and nothing brings new people in.
+
+## Slide 38 · Which Three Are Yours?
+*Presentation.* **4:07.**
+
+> Three questions to pick yours. Where do your best customers already spend their attention, not where do you enjoy spending yours. Which channels match how you naturally work, are you a talker, a writer, a maker, a connector. And what could you genuinely sustain for six months straight, not for two enthusiastic weeks in October.
+>
+> Two channels done with excellence beat six done badly. Every time.
+
+Then straight into Module 04, where the first three questions are exactly this.
+
+## Slide 39 · What Your Plan Contains
 *Presentation.* **3:57.**
 
 > Four things. Your offer for each moment you picked. A dated calendar running to December 31. A re-skin guide. And a weekly checklist. That is the document you are walking out with.
 
-## Slide 36 · Your Weekly Rhythm
+## Slide 40 · Your Weekly Rhythm
 *Presentation.* **4:00.**
 
 > Three posts and one video a week, for thirteen weeks. And I want to be honest, because some of you just did the math and panicked. If you told the page you have three hours a week, your plan will say plainly whether that fits, and if it does not it hands you a smaller version instead. One post, one video.
@@ -361,7 +399,7 @@ Walk and listen. When you hear one that lands, ask that person to say it to the 
 
 **Say clearly that this is the plan's cadence, starting this week, not something they produce today.**
 
-## Slide 37 · One Campaign, Many Moments
+## Slide 41 · One Campaign, Many Moments
 *Presentation.* **4:05.**
 
 > This is the payoff of the message you wrote in Module 03. Your plan includes a re-skin guide. Twenty minutes to turn your Thanksgiving campaign into the next moment. The date changes, the offer changes. Your message and your promise do not. That is why you did the hard thinking this afternoon.
@@ -370,10 +408,10 @@ Walk and listen. When you hear one that lands, ask that person to say it to the 
 
 # MODULE 04 · 4:10 to 4:45
 
-## Slide 38 · Your Turn: Module 04
+## Slide 42 · Your Turn: Module 04
 *Computer work.* **4:10. Leave it up the whole block.**
 
-> Module 04. Twelve questions, they are quick. Run it, and save what comes back as a PDF. This is the one you take home.
+> Module 04. Fourteen questions. The first three are your channels, found, build and accelerate, and there is an information button next to every option if you do not know what something is. The rest are quick. Run it, and save what comes back as a PDF. This is the one you take home.
 
 **At 4:15 tell them to read the Thanksgiving section first and ignore the calendar until it finishes generating**, or they will get overwhelmed by the length.
 
@@ -385,33 +423,33 @@ If Claude will not produce a PDF, tell them to ask for "a single self-contained 
 
 # CLOSE · 4:45 to 5:00
 
-## Slide 39 · Pressure-Test Your Plan
+## Slide 43 · Pressure-Test Your Plan
 *Collaboration.* **4:45.**
 
 > Swap with your partner. Read their calendar, not their campaign. Three questions: is any date impossible, is any week too full, and what would you cut?
 
 Five minutes. An outside eye catches the over-committed November that the owner cannot see.
 
-## Slide 40 · What You Built Today
+## Slide 44 · What You Built Today
 *Presentation.* **4:50.**
 
 > Look at what is on your laptop. A customer report. Your dates. Your message. Your campaign plan. A dated calendar to December 31. You came in with a business and you are leaving with a plan.
 
 > And when we make your flyers and your videos in a future session, you will not be staring at a blank page. You will already know what they need to say and exactly when they go out.
 
-## Slide 41 · This Week, Before Sunday
+## Slide 45 · This Week, Before Sunday
 *Presentation.* **4:53.**
 
 > Four things. Save your plan where you will actually find it. Put your content hour in your phone as a repeating appointment, not a good intention. Post the first thing on your calendar. And text your partner your one number.
 
-## Slide 42 · Trade Plans With Your Partner
+## Slide 46 · Trade Plans With Your Partner
 *Collaboration.* **4:56.**
 
 > Phones out. Right now, before anyone leaves. Send your partner your one number and your first three dates.
 
 **Make them actually do it in the room.** A commitment sent to a real person is the single biggest predictor of who is still posting in November.
 
-## Slide 43 · Thank You
+## Slide 47 · Thank You
 **4:59.**
 
 > You came in with your business. You are leaving with your plan. Everything is in your Claude Project and it stays there, so when you come back next month nothing starts from scratch.
