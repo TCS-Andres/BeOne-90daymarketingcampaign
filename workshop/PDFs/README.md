@@ -14,6 +14,12 @@ Branches B1 · The Creative Strategist · Monday, September 28, 2026
 
 The editable deck is `deck/Build-Your-90-Day-Plan_Deck.pptx`, with the speaker notes already in the notes pane.
 
+## The five questions
+
+The day hangs off five questions, named on slide 11.
+
+To whom (Topic 2) · Where will you sell (Topic 3, channels) · When (Topic 4) · What is the offer (Topic 5) · What is the plan (Topic 6)
+
 ## The three case studies
 
 Slides 13, 24 and 31 are built and sourced. Each has a narrow empty frame on the right if you want to drop in a video still or screenshot.
@@ -21,8 +27,8 @@ Slides 13, 24 and 31 are built and sourced. Each has a narrow empty frame on the
 | Slide | Case | Video |
 |---|---|---|
 | 13 | REI closed on Black Friday | youtube.com/watch?v=lMsxrJeJ8lU · 2:21 |
-| 24 | Miette, a four-shop bakery | youtube.com/watch?v=EYBbftM9LuY · 2:10 |
-| 31 | Patagonia, Do Not Buy This Jacket | youtube.com/watch?v=gtvqMBH0wS8 · 0:29 |
+| 29 | Miette, a four-shop bakery | youtube.com/watch?v=EYBbftM9LuY · 2:10 |
+| 36 | Patagonia, Do Not Buy This Jacket | youtube.com/watch?v=gtvqMBH0wS8 · 0:29 |
 
 Easiest on the day: open the link in a browser tab when you reach the slide, play it, close the tab. Nothing to prepare.
 

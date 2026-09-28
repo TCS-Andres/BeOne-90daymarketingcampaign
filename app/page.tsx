@@ -40,7 +40,7 @@ export default function Page() {
             message, your campaign plan, and a dated calendar through December 31.
           </p>
           <div className="mt-8 flex flex-wrap gap-2">
-            {["Your Q4 customer", "Your dates", "Your one message", "Your campaign plan", "A dated calendar"].map((b) => (
+            {["Your Q4 customer", "Your three channels", "Your dates", "Your one message", "Your dated 90-day plan"].map((b) => (
               <span key={b} className="rounded-full border border-gold/40 px-3.5 py-1.5 text-sm text-gold">
                 {b}
               </span>
