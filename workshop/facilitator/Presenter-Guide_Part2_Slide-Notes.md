@@ -101,7 +101,7 @@ Say this is the only framework you will use all day. For a room with mixed comfo
 
 > Here is what saves your life in November. You are not building five campaigns. You are building one message and dressing it differently for each date. Same jacket, different mannequin. The Thanksgiving version and the Christmas version say the same thing underneath, which is why the second one takes twenty minutes instead of two hours.
 
-**The promise of the whole day.** Tell them Module 04 hands them a re-skin guide that does exactly this.
+**The promise of the whole day.** Tell them Module 05 hands them a re-skin guide that does exactly this.
 
 ## Slide 13 · REI Closed on Black Friday
 *Presentation.* **10:10.**
@@ -193,7 +193,7 @@ Keep this short. It is a definition slide, not a lecture.
 
 > I am not going to walk you through fifty. The full guide is on the hub and it is yours to keep, with a real small business example for every single one.
 
-**Point them at the download now**, Module 04, top of the section. Tell them it is a menu, not a checklist. That phrase does a lot of work.
+**Point them at the download now**, Module 02, top of the section. Tell them it is a menu, not a checklist. That phrase does a lot of work.
 
 **Worth saying out loud:** most people in this room are quietly doing six channels badly and feeling guilty about four more. The guide exists to let them stop.
 
@@ -213,7 +213,7 @@ Keep this short. It is a definition slide, not a lecture.
 >
 > Two channels done with excellence beat six done badly. Every time.
 
-Then straight into Module 04, where the first three questions are exactly this.
+Then straight into Module 02, where the first three questions are exactly this.
 
 ## Slide 25 · Your Turn: Module 02
 *Computer work.* **11:55. Leave this slide up the whole block.**
@@ -331,7 +331,7 @@ Fast and rhythmic. Fifteen people in fifteen minutes. Saying a choice out loud i
 
 > If you sell something premium, or you sell your own time, listen closely. Cutting your price in December costs you all of next year, because every customer you win on a discount comes back next year expecting it. So instead: add rather than subtract. Bundle. Let regulars in first. Limit the number.
 
-Ask who is afraid of discounting. Service businesses raise hands. Tell them Module 03 asks for their price floor and will never propose anything that breaks it.
+Ask who is afraid of discounting. Service businesses raise hands. Tell them Module 04 asks for their price floor and will never propose anything that breaks it.
 
 ## Slide 37 · Do Not Buy This Jacket
 *Presentation.* **2:55.**
@@ -398,7 +398,7 @@ Walk and listen. When you hear one that lands, ask that person to say it to the 
 ## Slide 43 · One Campaign, Many Moments
 *Presentation.* **4:17.**
 
-> This is the payoff of the message you wrote in Module 03. Your plan includes a re-skin guide. Twenty minutes to turn your Thanksgiving campaign into the next moment. The date changes, the offer changes. Your message and your promise do not. That is why you did the hard thinking this afternoon.
+> This is the payoff of the message you wrote in Module 04. Your plan includes a re-skin guide. Twenty minutes to turn your Thanksgiving campaign into the next moment. The date changes, the offer changes. Your message and your promise do not. That is why you did the hard thinking this afternoon.
 
 ---
 
