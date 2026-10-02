@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { useLang } from "../lib/i18n";
 import type { Module } from "../lib/modules";
 import Questionnaire from "./Questionnaire";
 
@@ -11,6 +12,7 @@ export default function ModuleSection({
   module: Module;
   onProgress?: (slug: string, done: number, total: number) => void;
 }) {
+  const { t } = useLang();
   const [openStuck, setOpenStuck] = useState(false);
   const [checked, setChecked] = useState<Record<number, boolean>>({});
 
@@ -24,16 +26,16 @@ export default function ModuleSection({
     >
       <div className="flex flex-wrap items-baseline gap-x-4 gap-y-2">
         <span className="font-semibold text-gold text-2xl sm:text-3xl tabular-nums">{m.num}</span>
-        <h2 className="font-semibold text-navy text-2xl sm:text-4xl tracking-tight">{m.title}</h2>
+        <h2 className="font-semibold text-navy text-2xl sm:text-4xl tracking-tight">{t(m.title)}</h2>
         {m.optional && (
           <span className="rounded-full border border-gold bg-cream px-3 py-1 text-[11px] font-semibold uppercase tracking-wide text-gold">
-            {m.optionalLabel || "Optional"}
+            {t(m.optionalLabel || "Optional")}
           </span>
         )}
       </div>
 
-      <p className="mt-4 max-w-3xl text-base sm:text-lg leading-relaxed text-ink">{m.blurb}</p>
-      {m.time && <p className="mt-2 text-sm text-muted">{m.time}</p>}
+      <p className="mt-4 max-w-3xl text-base sm:text-lg leading-relaxed text-ink">{t(m.blurb)}</p>
+      {m.time && <p className="mt-2 text-sm text-muted">{t(m.time)}</p>}
 
       {m.links && m.links.length > 0 && (
         <div className="mt-5 flex flex-wrap gap-2">
@@ -45,7 +47,7 @@ export default function ModuleSection({
               rel="noreferrer"
               className="inline-flex items-center gap-2 rounded-xl border border-blue bg-bgBlue px-4 py-2 text-sm text-blue transition hover:border-gold hover:text-navy"
             >
-              {l.label} <span aria-hidden>&rarr;</span>
+              {t(l.label)} <span aria-hidden>&rarr;</span>
             </a>
           ))}
         </div>
@@ -53,7 +55,7 @@ export default function ModuleSection({
 
       {m.files.length > 0 && (
         <div className="mt-6">
-          <p className="text-xs font-semibold uppercase tracking-wider text-muted">Resources</p>
+          <p className="text-xs font-semibold uppercase tracking-wider text-muted">{t("Resources")}</p>
           <div className="mt-3 flex flex-wrap gap-2">
             {m.files.map((f) => (
               <a
@@ -63,7 +65,7 @@ export default function ModuleSection({
                 className="inline-flex items-center gap-2 rounded-xl border border-line bg-white px-4 py-2 text-sm text-blue transition hover:border-gold hover:text-navy"
               >
                 <span aria-hidden>&#8595;</span>
-                {f.label}
+                {t(f.label)}
               </a>
             ))}
           </div>
@@ -86,7 +88,7 @@ export default function ModuleSection({
                   onChange={() => setChecked((p) => ({ ...p, [i]: !p[i] }))}
                   className="mt-0.5 accent-[#C8A24B]"
                 />
-                <span>{c}</span>
+                <span>{t(c)}</span>
               </label>
             </li>
           ))}
@@ -101,15 +103,15 @@ export default function ModuleSection({
             onClick={() => setOpenStuck((v) => !v)}
             className="flex w-full items-center justify-between px-5 py-3.5 text-left font-medium text-navy"
           >
-            <span>Stuck? Three things that usually go wrong here</span>
+            <span>{t("Stuck? Three things that usually go wrong here")}</span>
             <span aria-hidden className="text-gold">{openStuck ? "−" : "+"}</span>
           </button>
           {openStuck && (
             <dl className="space-y-4 border-t border-gold/40 px-5 py-4">
               {m.stuck.map((s, i) => (
                 <div key={i}>
-                  <dt className="text-sm font-semibold text-navy">{s.q}</dt>
-                  <dd className="mt-1 text-sm leading-relaxed text-ink">{s.a}</dd>
+                  <dt className="text-sm font-semibold text-navy">{t(s.q)}</dt>
+                  <dd className="mt-1 text-sm leading-relaxed text-ink">{t(s.a)}</dd>
                 </div>
               ))}
             </dl>
@@ -119,7 +121,7 @@ export default function ModuleSection({
 
       {m.tools && (
         <p className="mt-5 text-sm text-muted">
-          Tools used: <span className="text-navy">{m.tools.join(" · ")}</span>
+          {t("Tools used:")} <span className="text-navy">{m.tools.join(" · ")}</span>
         </p>
       )}
     </section>

@@ -25,7 +25,9 @@ Nobody uses them all. The working rule is three:
 One of each is a complete system.
 
 ## RULES
-1. **Work only the channels they chose.** Do not add a fourth. Do not quietly reintroduce something they said they were dropping. If you genuinely believe a choice is wrong for their business, say so once, in a single clearly labelled line near the top, then build the plan they asked for anyway.
+1. **Work only the channels they chose.** Do not add new ones. Do not quietly reintroduce something they said they were dropping. If you genuinely believe a choice is wrong for their business, say so once, in a single clearly labelled line near the top, then build the plan they asked for anyway.
+
+1b. **If they ticked more than one channel in a bucket, do not just accept it.** Pick the one they should lead with, say which and why in a single sentence, and treat the others as secondary with a lighter rhythm. Being spread thin is the problem this whole module exists to solve, so an owner who ticked four FOUND channels needs you to choose for them, not to hand back four plans. If a bucket is empty, say what they are missing and what it costs them: an owner with no FOUND channel is invisible to strangers, which is usually the real problem.
 2. **Be concrete about what to post, and how often.** "Post consistently on Instagram" is useless. "Two Reels a week, Tuesday and Friday, each one showing a finished order" is a plan.
 3. **Give them permission to stop.** If they named channels they are keeping alive out of guilt, address it directly and tell them what they get back by stopping: hours, attention, the ability to be consistent somewhere that matters.
 4. **Ground it in their actual customer.** The Customer Report tells you where their people spend attention. If their chosen channel and their customer do not match, that is the most useful thing you can tell them today.
@@ -42,14 +44,16 @@ Work through this privately before producing anything.
 
 1. **Match their channels against their customer.** Does the FOUND channel actually put them in front of strangers who look like their best customer? If not, that is your headline finding.
 2. **Find the gap.** Most small businesses are strong on BUILD and weak on FOUND: they post constantly to people who already know them, and nothing brings new people in. Check whether that is true here.
+
+2b. **Count what they ticked.** More than two in any bucket is a spread-thin problem, and your job is to narrow it. Nothing in a bucket is a hole, and your job is to name it.
 3. **Work out the smallest sustainable rhythm** for each channel, given everything you know about their capacity.
 4. **Decide what they should stop**, and be willing to say it.
 
 ## INPUT: YOUR EIGHT ANSWERS
 
-1. **Your FOUND channel, how new people discover you:**
-2. **Your BUILD channel, how you stay in touch and earn trust:**
-3. **Your ACCELERATE channel, how you speed it up:**
+1. **Your FOUND channels, how new people discover you (may be more than one):**
+2. **Your BUILD channels, how you stay in touch and earn trust (may be more than one):**
+3. **Your ACCELERATE channels, how you speed it up (may be more than one, or none):**
 4. **Channels you are keeping alive out of guilt, and could stop:**
 5. **How people buy from you, and the link they use:**
 6. **Email or text list, and roughly how many:**
@@ -60,8 +64,10 @@ Work through this privately before producing anything.
 
 ## THE CHANNEL PLAN: sections, in this order
 
-### 1. Your Three Channels, in One Line Each
-For each: the channel, the job it does, and the single sentence that describes what good looks like on it in ninety days.
+### 1. Your Channels, in One Line Each
+For each bucket: name the channel they should **lead with**, the job it does, and one sentence on what good looks like on it in ninety days.
+
+If they ticked more than one in a bucket, say plainly which is primary and which is secondary, and give the reason in one sentence. If a bucket is empty, say so and say what it costs them.
 
 ### 2. Does This Match Your Customer?
 One short, honest section. Using the Customer Report, say whether their chosen channels actually reach the people they described. Name any mismatch plainly and say what you would swap and why. If it all matches, say so in two sentences and move on, do not manufacture a concern.

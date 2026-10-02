@@ -177,7 +177,7 @@ export const MODULES: Module[] = [
     num: "02",
     title: "Where Will You Sell?",
     blurb:
-      "A marketing channel is any path a customer can take to find you, trust you, and do business with you. Eleven categories, more than fifty channels, and you do not need them all. Nobody does. You are picking three: one to be found, one to build relationships, one to accelerate. Three, done with excellence, is a complete system.",
+      "A marketing channel is any path a customer can take to find you, trust you, and do business with you. Eleven categories, more than fifty channels, and you do not need them all. Nobody does. Aim for three: one to be found, one to build relationships, one to accelerate. If a bucket genuinely has two for you, tick both and your plan will tell you which to lead with.",
     time: "About 15 minutes",
     note:
       "Tap the i beside any channel you do not recognise. The full guide is downloadable above, with a real small business example for every single channel.",
@@ -191,8 +191,8 @@ export const MODULES: Module[] = [
     tools: ["Claude"],
     fields: [
       {
-        id: "q1a", type: "radio", label: "1. Your FOUND channel: how do new people discover you?",
-        help: "Pick the one you will genuinely work on this quarter. Tap the i next to any option for what it is. The full guide is downloadable above.",
+        id: "q1a", type: "check", label: "1. Your FOUND channels: how do new people discover you?",
+        help: "Most businesses should pick one and work it properly. If you genuinely have two, tick both and your plan will tell you which to lead with. Tap the i on any option for what it is.",
         options: ["Google Business Profile", "Website and local SEO", "Review platforms, Yelp, Angi, TripAdvisor", "Product marketplaces, Etsy, Amazon, Faire", "Service platforms, Thumbtack, Booksy, StyleSeat", "Delivery apps, DoorDash, Uber Eats, Instacart", "Farmers markets, fairs and pop-ups", "Nextdoor and local Facebook groups", "Foot traffic and signage", "Local press and media", "Word of mouth and referrals"],
         allowOther: true,
         info: {
@@ -210,8 +210,8 @@ export const MODULES: Module[] = [
         },
       },
       {
-        id: "q1b", type: "radio", label: "2. Your BUILD channel: how do you stay in touch and earn trust?",
-        help: "Where you show up again and again for people who already know you exist.",
+        id: "q1b", type: "check", label: "2. Your BUILD channels: how do you stay in touch and earn trust?",
+        help: "Where you show up again and again for people who already know you exist. One is usually enough. Tick two if you truly use both.",
         options: ["Email list", "SMS or WhatsApp", "Instagram", "Facebook", "TikTok", "YouTube", "LinkedIn", "Pinterest", "A loyalty programme", "In-store events and workshops", "A private community or group", "Chambers, networking groups, BNI"],
         allowOther: true,
         info: {
@@ -230,8 +230,8 @@ export const MODULES: Module[] = [
         },
       },
       {
-        id: "q1c", type: "radio", label: "3. Your ACCELERATE channel: how do you speed it up?",
-        help: "Optional. Paid reach or somebody else's audience, borrowed with permission. 'Nothing yet' is a perfectly good answer.",
+        id: "q1c", type: "check", label: "3. Your ACCELERATE channels: how do you speed it up?",
+        help: "Optional. Paid reach or somebody else's audience, borrowed with permission. Tick none at all if you have no budget, that is a perfectly good answer.",
         options: ["Meta ads, Facebook and Instagram", "Google Search ads", "Retargeting ads", "YouTube or TikTok ads", "Cross-promotions with other businesses", "Influencer or creator partnerships", "A customer referral programme", "Affiliate or commission partners", "Sponsorships", "Direct mail", "Contests and giveaways", "Nothing yet, no budget"],
         allowOther: true,
         info: {
@@ -327,7 +327,7 @@ export const MODULES: Module[] = [
       { id: "q10", type: "long", label: "10. When is your slowest stretch between October and December, and do you know why?" },
       { id: "q11", type: "long", label: "11. When is your busiest stretch, and could you actually take more?", help: "Sometimes the honest answer is no. Worth knowing before you promote into it." },
       {
-        id: "q12", type: "radio", label: "12. What is your goal for these 90 days? Pick what you measure.",
+        id: "q12", type: "check", label: "12. What is your goal for these 90 days? What do you actually measure?",
         options: ["Revenue", "Number of orders", "Number of bookings or appointments", "New customers"],
         allowOther: true,
         followUp: { id: "q12b", label: "Your number, and one line on why that number. What does hitting it change for you?", type: "long", help: "That 'why' is the thing that keeps you posting in week nine." },
@@ -390,7 +390,7 @@ export const MODULES: Module[] = [
     num: "05",
     title: "Build It",
     blurb:
-      "Everything you have answered feeds into this one. These last questions are about the practical stuff: where you post, how people pay you, and what has actually stopped you before. Run this and you get your complete Thanksgiving campaign plus your dated calendar through December 31.",
+      "This is the one that pulls the whole day together. Your channels, dates and message are already decided, so these last questions are about what you have to work with and what has actually stopped you before. What comes out is your complete Campaign Book: everything you decided today in one document, with a dated calendar through December 31.",
     time: "About 18 minutes",
     files: [
       { label: "The Complete Guide to Marketing Channels", href: "/files/Guide_Marketing-Channels.pdf" },

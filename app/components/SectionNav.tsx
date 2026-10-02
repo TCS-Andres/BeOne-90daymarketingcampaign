@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
+import { useLang } from "../lib/i18n";
 
 export type NavItem = { slug: string; num: string; title: string; optional?: boolean };
 type Prog = Record<string, { done: number; total: number }>;
@@ -67,11 +68,12 @@ function Count({ p }: { p?: { done: number; total: number } }) {
 /** Vertical rail. Desktop and landscape tablet only. */
 export function SideNav({ items, progress }: { items: NavItem[]; progress: Prog }) {
   const active = useActiveSection(items);
+  const { t } = useLang();
   return (
     <nav aria-label="Sections" className="hidden lg:block">
       <div className="sticky top-8 pb-10">
         <p className="mb-3 pl-3 text-[10px] font-semibold uppercase tracking-[0.18em] text-muted">
-          On this page
+          {t("On this page")}
         </p>
         <ul className="relative border-l border-line">
           {items.map((it) => {
@@ -90,7 +92,7 @@ export function SideNav({ items, progress }: { items: NavItem[]; progress: Prog 
                   <span className={"shrink-0 text-[11px] tabular-nums " + (on ? "text-gold" : "text-line")}>
                     {it.num}
                   </span>
-                  <span className="min-w-0">{it.title}</span>
+                  <span className="min-w-0">{t(it.title)}</span>
                   <Count p={progress[it.slug]} />
                 </a>
               </li>
@@ -101,7 +103,7 @@ export function SideNav({ items, progress }: { items: NavItem[]; progress: Prog 
           href="#tools"
           className="mt-3 block pl-3 text-sm text-muted transition hover:text-navy"
         >
-          Tools &amp; Software
+          {t("Tools & Software")}
         </a>
       </div>
     </nav>
@@ -121,6 +123,7 @@ export function TopNav({
   total: number;
 }) {
   const active = useActiveSection(items);
+  const { t } = useLang();
   const [open, setOpen] = useState(false);
   const current = items.find((i) => i.slug === active) ?? items[0];
   const pct = total ? Math.round((done / total) * 100) : 0;
@@ -133,7 +136,7 @@ export function TopNav({
         className="flex w-full items-center gap-3 px-5 py-3 text-left sm:px-8"
       >
         <span className="text-xs tabular-nums text-gold">{current.num}</span>
-        <span className="min-w-0 flex-1 truncate font-medium text-navy">{current.title}</span>
+        <span className="min-w-0 flex-1 truncate font-medium text-navy">{t(current.title)}</span>
         <span className="whitespace-nowrap text-xs tabular-nums text-muted">
           {done}/{total}
         </span>
@@ -162,7 +165,7 @@ export function TopNav({
                   }
                 >
                   <span className={"text-[11px] tabular-nums " + (on ? "text-gold" : "text-line")}>{it.num}</span>
-                  <span className="min-w-0">{it.title}</span>
+                  <span className="min-w-0">{t(it.title)}</span>
                   <Count p={progress[it.slug]} />
                 </a>
               </li>
@@ -174,7 +177,7 @@ export function TopNav({
               onClick={() => setOpen(false)}
               className="flex items-center gap-2.5 py-2.5 text-sm text-muted"
             >
-              <span className="text-[11px] text-line">&#9733;</span> Tools &amp; Software
+              <span className="text-[11px] text-line">&#9733;</span> {t("Tools & Software")}
             </a>
           </li>
         </ul>

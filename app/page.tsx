@@ -5,10 +5,12 @@ import { MODULES, TOOLS } from "./lib/modules";
 import ModuleSection from "./components/ModuleSection";
 import Logos from "./components/Logos";
 import { SideNav, TopNav } from "./components/SectionNav";
+import { LanguageToggle, useLang } from "./lib/i18n";
 
 const NAV = MODULES.map((m) => ({ slug: m.slug, num: m.num, title: m.title, optional: m.optional }));
 
 export default function Page() {
+  const { t } = useLang();
   const [prog, setProg] = useState<Record<string, { done: number; total: number }>>({});
 
   const onProgress = useCallback((slug: string, done: number, total: number) => {
@@ -27,31 +29,34 @@ export default function Page() {
       {/* Hero */}
       <header className="bg-navy text-cream">
         <div className="mx-auto max-w-7xl px-5 py-16 sm:px-8 sm:py-24 lg:pl-[266px]">
-          <Logos height={38} />
+          <div className="flex flex-wrap items-center justify-between gap-5">
+            <Logos height={38} />
+            <LanguageToggle />
+          </div>
           <h1 className="mt-8 text-3xl font-semibold leading-tight tracking-tight sm:text-5xl">
-            Build Your AI-Powered 90-Day Marketing Campaign for the Holidays
+            {t("Build Your AI-Powered 90-Day Marketing Campaign for the Holidays")}
           </h1>
           <p className="mt-5 max-w-2xl text-lg leading-relaxed text-cream/80">
-            Come with your business. Leave with a complete 90-day holiday campaign plan ready to launch.
+            {t("Come with your business. Leave with a complete 90-day holiday campaign plan ready to launch.")}
           </p>
           <p className="mt-4 max-w-2xl leading-relaxed text-cream/70">
-            This page is the whole day. Work down it in order. Each module asks you some questions, then hands you
-            a prompt to paste into Claude. By five o&apos;clock you will have your customer report, your dates, your
-            message, your campaign plan, and a dated calendar through December 31.
+            {t(
+              "This page is the whole day, built on five questions: who are you selling to, where will you sell, when, what is the offer, and what is the plan. Work down it in order. Each module asks you some questions, then hands you a prompt to paste into Claude."
+            )}
           </p>
           <div className="mt-8 flex flex-wrap gap-2">
             {["Your Q4 customer", "Your three channels", "Your dates", "Your one message", "Your dated 90-day plan"].map((b) => (
               <span key={b} className="rounded-full border border-gold/40 px-3.5 py-1.5 text-sm text-gold">
-                {b}
+                {t(b)}
               </span>
             ))}
           </div>
           <div className="mt-9 flex flex-wrap gap-3">
             <a href="#start-here" className="rounded-xl bg-gold px-6 py-3 font-medium text-navy transition hover:bg-cream">
-              Start here
+              {t("Start here")}
             </a>
             <a href="/files/Q4-2026_Moment-Menu.md" download className="rounded-xl border border-cream/30 px-6 py-3 font-medium text-cream transition hover:border-gold hover:text-gold">
-              The Q4 Moment Menu
+              {t("The Q4 Moment Menu")}
             </a>
           </div>
         </div>
@@ -72,30 +77,30 @@ export default function Page() {
         <section id="tools" className="scroll-mt-28 lg:scroll-mt-10 border-t border-line py-14 sm:py-20">
           <div className="flex items-baseline gap-4">
             <span className="text-2xl text-gold sm:text-3xl" aria-hidden>&#9733;</span>
-            <h2 className="text-2xl font-semibold tracking-tight text-navy sm:text-4xl">Tools &amp; Software</h2>
+            <h2 className="text-2xl font-semibold tracking-tight text-navy sm:text-4xl">{t("Tools & Software")}</h2>
           </div>
           <p className="mt-4 max-w-3xl leading-relaxed text-ink">
-            Everything we use today. All free to start. Open an account and keep building after the workshop.
+            {t("Everything we use today. All free to start. Open an account and keep building after the workshop.")}
           </p>
           <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-            {TOOLS.map((t) => (
-              <div key={t.name} className="flex flex-col rounded-2xl border border-line bg-white p-5">
+            {TOOLS.map((tool) => (
+              <div key={tool.name} className="flex flex-col rounded-2xl border border-line bg-white p-5">
                 <div className="flex items-center justify-between gap-3">
-                  <h3 className="font-semibold text-navy">{t.name}</h3>
-                  {t.free && (
+                  <h3 className="font-semibold text-navy">{tool.name}</h3>
+                  {tool.free && (
                     <span className="rounded-full bg-cream px-2.5 py-1 text-[10px] font-semibold uppercase tracking-wide text-gold">
-                      Free to start
+                      {t("Free to start")}
                     </span>
                   )}
                 </div>
-                <p className="mt-2 flex-1 text-sm leading-relaxed text-muted">{t.blurb}</p>
+                <p className="mt-2 flex-1 text-sm leading-relaxed text-muted">{t(tool.blurb)}</p>
                 <a
-                  href={t.href}
+                  href={tool.href}
                   target="_blank"
                   rel="noreferrer"
                   className="mt-4 inline-flex w-fit items-center gap-1.5 rounded-xl border border-blue px-4 py-2 text-sm text-blue transition hover:bg-bgBlue"
                 >
-                  Open <span aria-hidden>&rarr;</span>
+                  {t("Open")} <span aria-hidden>&rarr;</span>
                 </a>
               </div>
             ))}
@@ -109,9 +114,9 @@ export default function Page() {
       <footer className="border-t border-line bg-navy py-12 text-cream">
         <div className="mx-auto max-w-5xl px-5 sm:px-8">
           <Logos height={32} className="mb-7" />
-          <p className="font-medium">The Creative Strategist &middot; A Branches B1 Program</p>
+          <p className="font-medium">{t("The Creative Strategist \u00b7 A Branches B1 Program")}</p>
           <p className="mt-2 text-sm text-cream/60">
-            Your answers save on this device only. Clearing your browser data clears them, so download your PDFs.
+            {t("Your answers save on this device only. Clearing your browser data clears them, so download your PDFs.")}
           </p>
           <a
             href="https://community.branchesb1.org/"
@@ -119,7 +124,7 @@ export default function Page() {
             rel="noreferrer"
             className="mt-6 inline-flex rounded-xl border border-cream/30 px-5 py-2.5 text-sm transition hover:border-gold hover:text-gold"
           >
-            Back to B1
+            {t("Back to B1")}
           </a>
         </div>
       </footer>

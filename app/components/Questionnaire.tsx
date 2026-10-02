@@ -2,6 +2,7 @@
 
 import { useEffect, useMemo, useState } from "react";
 import type { Field, Module } from "../lib/modules";
+import { useLang } from "../lib/i18n";
 
 type Answers = Record<string, string | string[]>;
 
@@ -13,7 +14,7 @@ function isAnswered(f: Field, a: Answers): boolean {
   return typeof v === "string" && v.trim().length > 0;
 }
 
-function renderValue(f: Field, a: Answers): string {
+function renderValue(f: Field, a: Answers, t: (s: string) => string = (x) => x): string {
   const v = a[f.id];
   let base = "";
   if (Array.isArray(v)) base = v.join(", ");
@@ -30,7 +31,7 @@ function renderValue(f: Field, a: Answers): string {
       out = out ? out + "\n   " + fv.trim() : fv.trim();
     }
   }
-  return out || "(not answered)";
+  return out || t("(not answered)");
 }
 
 function stripMd(s: string) {
@@ -44,6 +45,7 @@ export default function Questionnaire({
   module: Module;
   onProgress?: (done: number, total: number) => void;
 }) {
+  const { t, lang } = useLang();
   const key = "b1-q4-" + m.slug;
   const fields = m.fields || [];
   const [answers, setAnswers] = useState<Answers>({});
@@ -87,15 +89,26 @@ export default function Questionnaire({
   function answersBlock(): string {
     return fields
       .map((f) => {
-        const label = stripMd(f.label);
-        return `${label}\n   ${renderValue(f, answers).replace(/\n/g, "\n   ")}`;
+        const label = t(stripMd(f.label));
+        return `${label}\n   ${renderValue(f, answers, t).replace(/\n/g, "\n   ")}`;
       })
       .join("\n\n");
   }
 
+  // The prompt files are written in English. When the hub is in Spanish we put a
+  // directive on the front so the answer comes back entirely in Spanish, rather
+  // than maintaining a second set of prompt files that would drift.
+  const ES_DIRECTIVE =
+    "IMPORTANTE: responde SIEMPRE y COMPLETAMENTE en español. " +
+    "Todo el documento que generes, incluidos los títulos, las tablas y los textos listos para publicar, " +
+    "debe estar en español neutro y natural para un dueño de negocio pequeño. " +
+    "Las instrucciones de abajo están en inglés, pero tu respuesta no debe estarlo. " +
+    "Mis respuestas están marcadas en la sección INPUT.\n\n---\n\n";
+
   async function buildPrompt(): Promise<string> {
     const block = answersBlock();
-    if (!m.promptFile) return block;
+    const prefix = lang === "es" ? ES_DIRECTIVE : "";
+    if (!m.promptFile) return prefix + block;
     try {
       const res = await fetch(m.promptFile);
       if (!res.ok) throw new Error("fetch failed");
@@ -109,9 +122,9 @@ export default function Questionnaire({
       const j = cands.length ? Math.min(...cands) : -1;
       const head = md.slice(0, headEnd + 1);
       const tail = j === -1 ? "" : md.slice(j);
-      return head + "\n" + block + "\n" + tail;
+      return prefix + head + "\n" + block + "\n" + tail;
     } catch {
-      return "MY ANSWERS\n\n" + block;
+      return prefix + "MY ANSWERS\n\n" + block;
     }
   }
 
@@ -150,8 +163,8 @@ export default function Questionnaire({
     line(new Date().toLocaleDateString(), 9, "#5A6473", false, 14);
 
     fields.forEach((f) => {
-      line(stripMd(f.label), 10.5, "#2C5697", true, 3);
-      line(renderValue(f, answers), 10.5, "#2B2B2B", false, 12);
+      line(t(stripMd(f.label)), 10.5, "#2C5697", true, 3);
+      line(renderValue(f, answers, t), 10.5, "#2B2B2B", false, 12);
     });
 
     if (y > 700) { doc.addPage(); y = M; }
@@ -164,7 +177,7 @@ export default function Questionnaire({
   }
 
   function clearAll() {
-    if (!confirm("Clear your answers for this module? This cannot be undone.")) return;
+    if (!confirm(t("Clear your answers for this module? This cannot be undone."))) return;
     setAnswers({});
     try { localStorage.removeItem(key); } catch {}
   }
@@ -174,33 +187,33 @@ export default function Questionnaire({
   return (
     <div className="mt-8 rounded-2xl border border-line bg-white p-5 sm:p-7 shadow-sm">
       <div className="flex flex-wrap items-baseline justify-between gap-2 border-b border-line pb-4">
-        <h4 className="font-semibold text-navy text-lg">Questionnaire</h4>
+        <h4 className="font-semibold text-navy text-lg">{t("Questionnaire")}</h4>
         <span className="text-xs text-muted">
-          {done} of {fields.length} answered &middot; saves automatically on this device
+          {done} {t("of")} {fields.length} {t("answered")} &middot; {t("saves automatically on this device")}
         </span>
       </div>
 
-      {m.note && <p className="mt-4 rounded-xl bg-bgBlue px-4 py-3 text-sm leading-relaxed text-navy">{m.note}</p>}
+      {m.note && <p className="mt-4 rounded-xl bg-bgBlue px-4 py-3 text-sm leading-relaxed text-navy">{t(m.note)}</p>}
 
       <div className="mt-6 space-y-8">
         {fields.map((f) => (
           <div key={f.id}>
-            <label className="block font-medium text-navy leading-snug">{stripMd(f.label)}</label>
-            {f.help && <p className="mt-1 text-sm text-muted leading-relaxed">{f.help}</p>}
+            <label className="block font-medium text-navy leading-snug">{t(stripMd(f.label))}</label>
+            {f.help && <p className="mt-1 text-sm text-muted leading-relaxed">{t(f.help)}</p>}
 
             {(f.type === "short" || f.type === "long") && (
               f.type === "long" ? (
                 <textarea
                   rows={3}
                   value={(answers[f.id] as string) || ""}
-                  placeholder={f.placeholder}
+                  placeholder={f.placeholder ? t(f.placeholder) : undefined}
                   onChange={(e) => set(f.id, e.target.value)}
                   className="mt-3 w-full rounded-xl border border-line bg-cream px-3 py-2 text-ink outline-none focus:border-blue focus:ring-1 focus:ring-blue"
                 />
               ) : (
                 <input
                   value={(answers[f.id] as string) || ""}
-                  placeholder={f.placeholder}
+                  placeholder={f.placeholder ? t(f.placeholder) : undefined}
                   onChange={(e) => set(f.id, e.target.value)}
                   className="mt-3 w-full rounded-xl border border-line bg-cream px-3 py-2 text-ink outline-none focus:border-blue focus:ring-1 focus:ring-blue"
                 />
@@ -235,7 +248,7 @@ export default function Questionnaire({
                               onChange={() => (f.type === "check" ? toggle(f.id, opt) : set(f.id, opt))}
                               className="mt-0.5 accent-[#2C5697]"
                             />
-                            <span>{opt}</span>
+                            <span>{t(opt)}</span>
                           </label>
                           {infoText && (
                             <button
@@ -261,7 +274,7 @@ export default function Questionnaire({
                         </div>
                         {infoText && infoOpen && (
                           <p className="border-t border-gold/40 bg-white/70 px-3 py-2.5 text-[13px] leading-relaxed text-ink">
-                            {infoText}
+                            {t(infoText)}
                           </p>
                         )}
                       </div>
@@ -274,7 +287,7 @@ export default function Questionnaire({
             {(f.type === "radio" || f.type === "check") && f.allowOther && (
               <input
                 value={(answers[f.id + OTHER] as string) || ""}
-                placeholder="Other, in your own words"
+                placeholder={t("Other, in your own words")}
                 onChange={(e) => set(f.id + OTHER, e.target.value)}
                 className="mt-2 w-full rounded-xl border border-line bg-cream px-3 py-2 text-ink outline-none focus:border-blue focus:ring-1 focus:ring-blue"
               />
@@ -282,8 +295,8 @@ export default function Questionnaire({
 
             {(f.type === "radio" || f.type === "check") && f.followUp && (
               <div className="mt-3">
-                <label className="block text-sm font-medium text-navy">{f.followUp.label}</label>
-                {f.followUp.help && <p className="mt-1 text-sm text-muted">{f.followUp.help}</p>}
+                <label className="block text-sm font-medium text-navy">{t(f.followUp.label)}</label>
+                {f.followUp.help && <p className="mt-1 text-sm text-muted">{t(f.followUp.help)}</p>}
                 <textarea
                   rows={2}
                   value={(answers[f.followUp.id] as string) || ""}
@@ -297,26 +310,26 @@ export default function Questionnaire({
       </div>
 
       <div className="mt-8 border-t border-line pt-5">
-        {m.pasteHint && <p className="mb-3 text-sm text-muted">{m.pasteHint}</p>}
+        {m.pasteHint && <p className="mb-3 text-sm text-muted">{t(m.pasteHint)}</p>}
         <div className="flex flex-wrap gap-3">
           <button
             onClick={copyPrompt}
             className="rounded-xl bg-blue px-5 py-2.5 font-medium text-white transition hover:bg-gold hover:text-navy"
           >
-            {copied === "ok" ? "Copied. Now paste it into Claude." : copied === "err" ? "Copy blocked, use the PDF below" : "Copy my prompt"}
+            {copied === "ok" ? t("Copied. Now paste it into Claude.") : copied === "err" ? t("Copy blocked, use the PDF below") : t("Copy my prompt")}
           </button>
           <button
             onClick={downloadPdf}
             className="rounded-xl border border-blue px-5 py-2.5 font-medium text-blue transition hover:bg-bgBlue"
           >
-            Download my answers (PDF)
+            {t("Download my answers (PDF)")}
           </button>
           <button onClick={clearAll} className="rounded-xl px-4 py-2.5 text-sm text-muted transition hover:text-navy">
-            Clear
+            {t("Clear")}
           </button>
         </div>
         <p className="mt-3 text-xs text-muted">
-          If the copy button does not bring your answers across, download the PDF and copy them from there. Both get you to the same place.
+          {t("If the copy button does not bring your answers across, download the PDF and copy them from there. Both get you to the same place.")}
         </p>
       </div>
     </div>

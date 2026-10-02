@@ -7,7 +7,7 @@ Branches B1 · Facilitated by The Creative Strategist
 
 A marketing channel is any path a customer can take to find you, trust you, and do business with you. There are eleven categories and more than fifty channels. You do not need them all. Nobody does.
 
-The rule of thumb: **one channel to be found, one to build relationships, one to accelerate.** Three, done with excellence, is a complete system for most small businesses.
+The rule of thumb: **one channel to be found, one to build relationships, one to accelerate.** Three, done with excellence, is a complete system for most small businesses. If a bucket genuinely has two for you, tick both and your plan will tell you which to lead with.
 
 The full guide is downloadable on the hub, and there is an information button next to every option on the page.
 
@@ -19,14 +19,14 @@ Eight questions.
 
 ## Part A: Your Three Channels
 
-**1. Your FOUND channel. How do new people discover you?**
-The one you will genuinely work on this quarter. Search, maps, directories, marketplaces, markets, word of mouth.
+**1. Your FOUND channels. How do new people discover you?**
+Search, maps, directories, marketplaces, markets, word of mouth. Most businesses should pick one and work it properly. If you genuinely have two, tick both and your plan will tell you which to lead with.
 
-**2. Your BUILD channel. How do you stay in touch and earn trust?**
-Where you show up again and again for people who already know you exist. Email, text, one social platform, a community, a loyalty programme.
+**2. Your BUILD channels. How do you stay in touch and earn trust?**
+Where you show up again and again for people who already know you exist. Email, text, a social platform, a community, a loyalty programme. One is usually enough.
 
-**3. Your ACCELERATE channel. How do you speed it up?**
-Optional. Paid reach, or somebody else's audience borrowed with permission. "Nothing yet, no budget" is a perfectly good answer and your plan will still work.
+**3. Your ACCELERATE channels. How do you speed it up?**
+Optional. Paid reach, or somebody else's audience borrowed with permission. Tick none at all if you have no budget, your plan will still work.
 
 **4. Which channels are you currently keeping alive out of guilt, and could stop?**
 Naming these is how you free up the hours to do three things properly.
